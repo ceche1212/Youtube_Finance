@@ -1,0 +1,2040 @@
+,Name,Description
+0,TR.F.RevGoodsSrvc,"Revenue from Goods & Services [SNTS] represents the total value of receipts from the sales of products and services. The value of sales revenues after cash discounts, trade discounts, excise tax, and sales returns and allowances. Applicable to Industrial and Property companies.
+Revenue from Goods & Services [SNTS] includes:
+• Sales of Goods & Services - Net - Unclassified [SNTU]
+• Hotel Revenue [SHRV]
+• Rental & Property-Related Operating Revenue [SRPT]
+
+Industrial companies additionally includes:
+• Utility Revenue - Total [SRVU]
+• Sales Returns, Allowances & Other Revenue Adjustments [SSRT] (deducted)
+• Revenue Taxes [SEXT] (deducted)
+• Gross Revenue from Business Activities - Total [SREV]
+
+In the absence of above, it includes: 
+• Sales of Goods & Services - Net [RNTS]
+• Revenue from Goods & Services [RNTU]"
+1,TR.F.SalesOfGoodsSrvcNetUnclassif,"Sales of Goods & Services - Net - Unclassified [SNTU] represents net receipts from the sales of products and services after cash discounts, trade discounts, excise tax, and sales returns and allowances.  Applicable to Industrial, Property and Investment Trust companies.
+Sales of Goods & Services - Net - Unclassified [SNTU] includes:
+• Sales of Goods & Services - Net [RNTS]"
+2,TR.F.TotRevenue,"Revenue from Business Activities - Total [STLR] represents total consolidated revenue of a Company. Applicable to all Industries.
+Revenue from Business Activities - Total [STLR] includes:  
+Industrial:
+• Revenue from Goods & Services [SNTS]
+• Revenue from Financing-Related Operations [SFRO]
+• Revenue from Business-Related Activities - Other - Total [SOBR]
+
+Banks:
+• Interest & Dividend Income - Net - Finance [SIDI]
+• Non-Interest Business Revenue - Net - Total [SNIB]
+
+Insurance:
+• Net Premiums Earned [SPNE]
+• Investment Income - Net - Insurance [SNRV]
+• Investments & Loans - Business - Gain/Loss [SGIL]
+• Business-Related Financing Revenue - Other [SOFB]
+• Revenue from Business-Related Activities - Other - Total [SOBR]
+
+Property:
+• Revenue from Goods & Services [SNTS]
+• Revenue from Financing-Related Operations [SFRO]
+• Revenue from Business-Related Activities - Other - Total [SOBR]
+
+Investment Trust:
+• Investment Income - Gross - Investment [SGII]
+• Interest & Fees on Loans [STCF]
+• Investments & Loans - Business - Gain/Loss [SGIL]
+• Business-Related Financing Revenue - Other [SOFB]
+• Revenue from Business-Related Activities - Other - Total [SOBR]
+• Operating Revenue - Capital Account [SORC]
+• Operating Revenue - Revenue Account [SOPS]
+
+Other Financial:
+• Interest & Dividend Income - Finance - Total [SIDT]
+• Net Commission & Fees Income/Expense - Business Revenue [SNCF]
+• Net Foreign Exchange Income - Business Revenue [SNFE]
+• Investments & Loans - Business - Gain/Loss [SGIL]
+• Net Income from Operating & Finance Lease - Business Revenue [SOFL]
+• Business-Related Financing Revenue - Other [SOFB]
+• Revenue from Business-Related Activities - Other - Total [SOBR]
+
+In the absence of above, it includes:
+• Total Revenue [XTLR]"
+3,TR.F.CostOfOpRev,"Cost of Operating Revenue [SCOR] represents the total cost of goods and services sold. Applicable to Industrial, Property, Investment Trust and Other Financial companies. 
+Cost of Operating Revenue [SCOR] includes:
+• Cost of Financing-Related Operations [SCFS]
+• Cost of Revenues - Total [SCGS]
+
+Industrial companies additionally includes:
+• Cost of Goods & Services - Total [ECGU]
+
+Property companies additionally includes:
+• Provision & Impairment for Loan Losses [SLLP]
+• Cost of Goods & Services - Total [ECGU]
+
+Investment Trust companies additionally includes:
+• Fees & Commissions Expense [SCFE]
+
+In the absence of above, it includes:
+• Cost of Revenues - Total [XCGS]"
+4,TR.F.COGSTot,"Cost of Revenues - Total [SCGS] represents all as reported costs of goods and services. Applicable to Industrial, Property, Investment Trust and Other Financial companies. 
+Cost of Revenues - Total [SCGS] includes:
+Industrial:
+• Cost of Revenues - Total [XCGS]
+• Cost of Revenues - Unclassified [SCOU]
+• Production Taxes & Royalty Expenses [SPTR]
+• Cost of Revenues - Other - Total [SCOS]
+• Amortization in Cost of Revenues [SACS]
+• Depreciation in Cost of Revenues [SDCS]
+• Labor & Related Expenses including Stock-Based Compensation in Cost of Revenues [SLAC]
+• Material Expenses [SMAT]
+• Property Operating Expenses - Hotel [SPOH]
+
+Property:
+• Cost of Revenues - Total [XCGS]
+• Cost of Revenues - Unclassified [SCOU]
+• Property Operating Expenses - Real Estate Rental [SPOR]
+• Property Operating Expenses - Hotel [SPOH]
+• Property Direct Expenses - by Type - Other [SCOT]
+• Real Estate Taxes [SPRT]
+• Ground leases/Rental Expenses in Cost of Revenues [SREX]
+• Property Maintenance & Service Charges [EPMS]
+• Property Related Expenses - Rental Business/Investment Property - Other [SPEO]
+• Own Work Capitalized [SOWC]
+• Labor & Related Expenses including Stock-Based Compensation in Cost of Revenues [SLAC]
+• Depreciation in Cost of Revenues [SDCS]
+• Amortization in Cost of Revenues [SACS]
+• Cost of Revenues - Other - Total [SCOS]
+
+Other Financial:
+• Cost of Revenues - Total [XCGS]
+• Cost of Revenues - Unclassified [SCOU]
+• Property Operating Expenses - Real Estate Rental [SPOR]
+• Labor & Related Expenses including Stock-Based Compensation in Cost of Revenues [SLAC]
+• Depreciation in Cost of Revenues [SDCS]
+• Amortization in Cost of Revenues [SACS]
+• Cost of Revenues - Other - Total [SCOS]
+
+Investment Trust:
+• Cost of Revenues - Total [XCGS]
+• Cost of Revenues [ECOR]
+• Labor & Related Expenses in Cost of Revenue [ELAC]
+• Stock-Based Compensation in Cost of Revenue [ESCC]
+• Depreciation & Amortization [EDAE*]
+• Depreciation of Financial Lease Right-of-Use Assets [EDLR*]
+• Depreciation [EDEP*]
+• Depreciation in Cost of Revenues [EDEC]
+• Depreciation & Amortization in Cost of Revenues [EDAC]
+• Depreciation of Financial Lease Right-of-Use Assets in Cost of Revenues [EDLC]
+• Amortization of Intangibles including Goodwill [EAMI*]
+• Amortization of Intangibles excluding Goodwill [EAMO*]
+• Amortization of Deferred Charges [EAMD*]
+• Amortization of Goodwill [EAMA*]
+• Amortization of Licenses, Copyrights, Property Rights & Designs [EAML*]
+• Amortization of Computer Software [EASW*]
+• Amortization of Financial Lease Right-of-Use Assets [EALR*]
+• Amortization of Brands, Patents, Trademarks, Marketing & Artistic Intangibles [EAMB*]
+• Amortization of Intangibles excluding Goodwill in Cost of Revenues [EAMX]
+• Amortization of Licenses, Copyrights, Property Rights & Designs in Cost of Revenues [EALC]
+• Amortization of Computer Software in Cost of Revenues [EASC]
+• Amortization of Brands, Patents, Trademarks, Marketing & Artistic Intangibles in Cost of Revenues [EABC]
+• Amortization of Capitalized Research & Development in Cost of Revenues [EARC]
+• Amortization of Financial Lease Right-of-Use Assets in Cost of Revenues [EAUC]
+• Cost of Revenues - Other [EOCG]
+
+*These items are only included if we have Cost of goods items available."
+5,TR.F.GrossProfIndPropTot,"Gross Profit - Industrials/Property - Total [SGRP] represents the company's residual profit after selling a product or service and deducting the cost associated with its production and sale. Applicable to Industrial and Property companies.
+Gross Profit - Industrials/Property - Total [SGRP] includes:
+• Revenue from Business Activities - Total [STLR]
+• Cost of Operating Revenue [SCOR] (Deducted)
+In the absence of above, it includes:
+• As Reported Gross Profit [XGRP]. 
+Applicable to Industrial, Property, Other Financial and Investment Trust companies."
+6,TR.F.SGATot,"Selling, General & Administrative Expenses - Total [SSGA] represents all costs of operating a business other than the costs of readying a product for sale. Applicable to all Industries.
+Selling, General & Administrative Expenses - Total [SSGA] includes:
+• Selling, General & Administrative Expenses - Unclassified [SSGU]
+Compensation in Selling, General & Administrative Expenses [SLAS]
+• Depreciation in Selling, General & Administrative Expenses [SDES]
+• Amortization of Intangibles in Selling, General & Administrative Expenses [SAMS]
+• Selling, General & Administrative Expenses - Other - Total [SSGO]
+
+Industrial companies additionally includes:
+• Research & Development Expense [SRAD]
+• Exploration/Dry Hole Expenses (including Write-Off) [SEXP]
+• Operations & Maintenance (Utility) [SDOE]
+
+Investment Trust companies additionally includes:
+• Investment Management Fees [SIMF]"
+7,TR.F.SGAUnclassif,"Selling, General & Administrative Expenses - Unclassified [SSGU] represents all costs of operating a business other than the costs of readying a product for sale. Applicable to all Industries.
+Selling, General & Administrative Expenses - Unclassified [SSGU] includes:
+• Selling, General & Administrative Expenses [ESGA]"
+8,TR.F.SGAOthTot,"Selling, General & Administrative Expenses - Other - Total [SSGO] represents selling, general and administrative costs, not related to labor, research and development,  depreciation/amortization/impairment in SGA expenses. Applicable to all Industries.
+Selling, General & Administrative Expenses - Other - Total [SSGO] includes:
+• Advertising Expense [SADE]
+• Property & Other Taxes [SPTX]
+• Rental Expense [SRXP]
+• Occupancy Expense - Other [SOEO]
+• Pre-Opening Expenses [SPOE] (applicable only Industrial)
+• Provision for Doubtful Accounts & Write-off [SPDW]  (Applicable only Industrial)
+• Equipment/Occupancy Expense - Bank/Financial - Other [SEOE]
+
+In the absence of the breakdown above for Industrial companies, it includes:
+• Selling, General & Administrative Expenses - Other [ESGO].
+
+In the absence of the breakdown above for Property, Bank ,Investment Trust, Other Financial companies, it includes:
+• Selling, General & Administrative Expenses - Other [ESGO] 
+• Research & Development Expense [ERAD]
+• Research & Development Expense in Selling, General & Administrative Expenses [ERDS]
+• Rental Expenses in Research & Development Expense [ERRD]
+• Research & Development Expense - Expensed & Capitalized - Total [ETRD]
+• Research & Development Expense - Capitalized [ECRD]
+• Research & Development in Cost of Revenue [ERDC]
+• Stock-Based Compensation in Research & Development Expense [ESCR]
+• Research & Development Expense - Gross (before Government Grants) [ERBG]
+• Bad Debt Written-Off/Provision [EBDW]
+
+Insurance:
+• Selling, General & Administrative Expenses - Other [ESGO]
+• Stock-Based Compensation in Research & Development Expense [ESCR]
+• Bad Debt Written-Off/Provision [EBDW]
+• Provision for Loan Losses [ELOP]
+• Equipment/Occupancy Expense - Bank/Financial - Other [EOEO]"
+9,TR.F.ProvForDoubtAcctWriteOff,"Provision for Doubtful Accounts & Write-off [SPDW] represents the provision for possible uncollectable accounts receivable. This item may also be referred to as the allowance for doubtful accounts. It includes recovery of bad debt provisions/bad debt written off and the write-off of doubtful receivables. Applicable to Industrial and Property companies.
+Provision for Doubtful Accounts & Write-off [SPDW] includes:
+• Bad Debt Written-Off/Provision [EBDW]"
+10,TR.F.OthOpExpnIncNet,"Other Operating Expense/(Income) - Net [SOIE] represents net operating expenses/income which are either not specified as being for plant hire, fixed asset rentals, depreciation/amortization, marketing, duties/taxes, exchange losses, research/development or exploration or which may represent a combination of some or all of these items. This item is adjusted by rounding adjustments. Applicable to all Industries.
+Other Operating Income/Expense - Net [SOIE] includes:
+• Other Operating Income - Total [SOOI] (deducted)
+• Other Operating Expense [SOOE]
+• Operating Provisions [SOPV]
+• Non-Recurring Adjustments - Operating [SNRO] (deducted)
+• Supplementary Adjustments - Operating [SSPO] (deducted)
+
+Industrial companies additionally includes:
+• Provision for Decommissioning Fund & Environmental Obligations [SPDF]
+
+Banks additionally includes:
+• Contributions & Transfer to Bank Guarantee Fund [SBGF]"
+11,TR.F.OthOpIncTot,"Other Operating Income - Total [SOOI] represent any other operating income which cannot be specifically collected under the granular FCC’s. Applicable to all Industries.
+Other Operating Income - Total [SOOI] includes:
+• Other Operating Income [EONT]
+• Other Operating Income/Expense [EOIE] (if an income)
+
+Industrial and Property companies additionally includes:
+• Cost Reimbursements (in Revenue) [ROCR]
+
+Investment Trust and Other Financial companies additionally includes:
+• Cost Reimbursements (in Revenue) [ROCR]"
+12,TR.F.NonRecurAdjOp,Non-Recurring Adjustments - Operating - Decrease/(Increase) [SNRO] represents non-recurring adjustments disclosed by companies in a note to Operating Profit/Profit from Operations. These cannot be allocated to a specific data point within operating income/expenses and is usually disclosed as a component to arrive at Operating Profit/Profit from Operations. Applicable to all Industries.
+13,TR.F.SupplAdjOp,Supplementary Adjustments - Operating - Decrease/(Increase) [SSPO] represents targeted data items disclosed by companies in the notes to the accounts but cannot be assigned to any item presented within the Income Statement. These items are deemed to be part of operating income/expenses and adjusted in here to ensure the item can be shown in its respective position and the statement is still balancing. Applicable to all Industries.
+14,TR.F.OpExpnTot,"Operating Expenses - Total [SOET] represents total operating expense as reported by the company. This item needs to be captured in a cost-by-nature or single-step income statement. Applicable to all Industries.
+Operating Expenses - Total [SOET] includes:
+• Selling, General & Administrative Expenses - Total [SSGA]
+• Other Operating Expense/Income - Net [SOIE]
+
+Industrial and Property companies additionally includes:
+• Cost of Operating Revenue [SCOR]
+
+Insurance companies additionally includes:
+• Insurance Claims/Reserves - Total [STIC]
+• Dividends to Policy Holders [SDPH]
+• Fees & Commissions Expense [SCFE]
+• Underwriting Expenses [SUWE]
+• Expenses from Banking Operations - Insurance [SEBO]
+
+Banks additionally includes:
+• Provision & Impairment for Loan Losses [SLLP]
+
+Investment additionally includes:
+• Cost of Operating Revenue [SCOR]
+• Provision & Impairment for Loan Losses [SLLP]
+• Operating Expenses - Revenue Account [SOER]
+• Operating Expenses - Capital Account [SOEC]
+
+Financial companies additionally includes:
+• Cost of Operating Revenue [SCOR]
+• Provision & Impairment for Loan Losses [SLLP]
+
+In the absence of above, it includes:
+• Operating Expenses - Total [XTOE]
+• Total Expenses [XEXP]
+• Bank Operating Expenses - Total [XBOE]"
+15,TR.F.OpProfBefNonRecurIncExpn,"Operating Profit before Non-Recurring Income/(Expense) [SOPR] represents the as reported total operating income (revenues and operating income less operating costs) from a company’s primary/core operations, before non-recurring and non-operating items. Applicable to all industries.
+Operating Profit before Non-Recurring Income/(Expense) [SOPR] includes:
+• Revenue from Business Activities - Total[STLR]
+• Less: Operating Expenses - Total[SOET]
+
+In the absence of the above breakdown it includes:
+• Operating Profit/Income from Operations[XEBT]"
+16,TR.F.FinIncExpnNetTot,"Financing Income/(Expense) - Net - Total [SFIE] represents the total value of income and expenses related to financial operations. Applicable to Industrial, Property, Investment and Financial companies. 
+Financing Income/(Expense) - Net - Total [SFIE] includes:
+• Non-Interest Financial Income/Expense - Total [SNIF]
+• Interest Expense - Net of Interest Income [SNII] (deducted)
+
+Financial companies additionally includes:
+• Interest Expense - Finance - Total [SIET] (deducted)
+
+If the above accounts are not available, it will be the sum of the following items:
+• Net Financing Income/Expense [XNFI]
+• Financial Expense - Total [XTFE] (deducted)
+• Financial Income - Total [XTFI]"
+17,TR.F.IntrExpnNetOfIntrInc,"Interest Expense - Net of (Interest Income) [SNII] represents net interest income and expenses when not shown separately. Applicable to Industrial, Property, Investment and Financial companies.
+Interest Expense - Net of (Interest Income) [SNII] includes:
+• Interest Expense - Net of Capitalized Interest [SIEN]
+• Interest Income - Non-Bank [SINI] (deducted)"
+18,TR.F.IntrExpnNetOfCapIntr,"Interest Expense - Net of Capitalized Interest [SIEN] represents interest expense on debt, net of capitalized. Additionally this item should also be used when the company does not delineate separately gross interest costs and interest capitalized that is when the company just reports Interest expense on the face. Applicable to Industrial, Insurance, Property, Investment Trust and Other Financial companies.
+Interest Expense - Net of Capitalized Interest [SIEN] includes:
+• Interest Expense on Capital Financing - Gross [STIE]
+• Dividends on Hybrid Financial Instruments - Liability Portion [SDHY]
+• Interest Capitalized [SICA] (deducted)
+• Interest Expense - Net of Capitalized Interest [EIEN]
+• Interest Expense on Financial Lease Liabilities [EILL]
+• Interest/Dividends on Hybrid Financial Instruments - Liability Portion [EPRD]
+• Interest Expense/Income - Net [EINN] (if this is an expense)
+• Financial Expense - Total [XTFE] (in the absence of pure interest expense)
+• Net Financing Income/Expense [XNFI] (in the absence of pure Interest expense and Financial Expense and is expense)
+
+Industrial companies additionally includes: 
+• Allowance for Funds Used during Construction - Debt Portion (AFUDC) [SAFD]"
+19,TR.F.NonIntrFinIncExpnTot,"Non-Interest Financial Income/(Expense) - Total [SNIF] represents the total value of non-interest expense. It includes realized and unrealized gains and losses recorded as a result of foreign exchange fluctuations, gains and losses on the sale of investments, dividend income and accretion of the costs that an extraction company will incur in the future, for the closure of a mine and restoring the natural environment to its previous shape. Applicable to Industrial, Property, Investment and Financial companies.
+Non-Interest Financial Income/(Expense) - Total [SNIF] includes:
+• Non-Interest Financial Income/Expense - Total [EINU]
+• Dividend & Investment Income [SIDN]
+• Foreign Exchange Gain/Loss - Non-Business [SIFX]
+• Amortization of Deferred Financing Charges [SADF] (deducted)
+• Sale of Investments Held for Sale, Maturity & Trading - Gain/Loss [SGIT]
+• Non-Interest Financial Income/Expense - Other - Net [SINO]
+
+Industrial companies additionally includes:
+• Accretion - Site Closure & Reclamation Expenses [SSCR] (deducted)"
+20,TR.F.DivInvstInc,"Dividend & Investment Income [SIDN] represents income from investments in shares of companies not valued using the equity method. Includes related tax credits and income from trade investments where not shown separately. Applicable to all Industries. 
+Dividend/Investment Income [SIDN] includes: 
+• Dividend & Investment Income [EIDT]"
+21,TR.F.SaleOfTangIntangFixedAssetsGL,"Sale of Tangible & Intangible Fixed Assets - Gain/Loss [SFAS] represents the Income or loss on sale of fixed assets (including investment properties). Applicable to all Industries.
+Sale of Tangible & Intangible Fixed Assets - Gain/Loss [SFAS] includes:
+• Sale of Tangible & Intangible Fixed Assets - Gain/Loss [EGFA]
+• Sale of Investment Properties - Property - Gain/Loss [ESLP]
+• Sale of Leased Fixed Assets - Gain/Loss [SGLL]
+
+Banks and Insurance additionally includes:
+• Sale of Other Real Estate Owned - Gain/Loss [EORE]"
+22,TR.F.EqEarnLossBefTaxInclNonRecur,"Equity Earnings/(Loss) - before Taxes including Non-Recurring [SIQA] represents profits arising from any source, accounted for by the equity method. Profits or losses of subsidiaries, associated companies or other companies accounted for on the equity basis and included in Profit before tax. It includes the non-recurring portion of profits, arising from any source, accounted for by the equity method. Applicable to all Industries.
+Equity Earnings/(Loss) - before Taxes including Non-Recurring [SIQA] includes:
+• Equity Earnings - before Tax [EIQA]
+• Non-Recurring Portion of Equity Earnings before Taxes [SNQA]"
+23,TR.F.ProvForIncTaxUnclassif,"Provision for Income Tax Expense- Unclassified [SPRX] includes all taxes based on profits which are unclassified as to by region - federal, State and/or foreign government and by type - current or deferred. It also includes income taxes incurred by affiliated, associated and joint venture companies.
+Provision for Income Tax Expense- Unclassified [SPRX] includes:
+• Provision for Income Tax [TTAX]
+• Taxes - Associated Companies [VTAC]"
+24,TR.F.NormPretaxProf,"Normalized Pre-tax Profit [SNPX] represents pre-tax profit without the effect of unusual and extraordinary income/expense. Applicable to all Industries.
+Normalized Pre-tax Profit [SNPX] includes:
+• Operating Profit before Non-Recurring Income/Expense [SOPR]
+• Sale of Tangible & Intangible Fixed Assets - Gain/Loss [SFAS]
+• Equity Earnings - before Taxes including Non-Recurring [SIQA]
+• Other Non-Operating Income/Expense - Total [SNEI]
+
+Industrial, Property, Investment and Financial companies additionally includes:
+• Financing Income/Expense - Net - Total [SFIE]
+
+Insurance companies additionally includes:
+• Foreign Exchange Gain/Loss - Non-Business [SIFX]
+• Interest Expense - Net of Capitalized Interest [SIEN] (deducted)"
+25,TR.F.NonRecurIncExpnTot,"Non-Recurring Income/Expense - Total [SGLN] represents the total value of non-recurring income or expenses. Applicable to all Industries.
+Non-Recurring Income/Expense - Total [SGLN] includes:
+• Non-Recurring Income/Expense - Other - Total [SGLO]
+• Sale of Assets - Non-recurring - Gain/Loss [SNRA]
+• Costs Associated with IPOs & Mergers [SCAI] (Deducted)
+• Debt Restructuring - Gain/Loss [SDRS]
+• Compensation for Disaster - Pre-Tax [SDCX]
+• Sale & Acquisition of Group Companies - Gain/Loss [SDSA]
+• Fair Value Adjustments - Investment Property [SIPV]
+• Other than Temporary Impairment Losses on Investments [SIMP] (Deducted)
+• Impairment - Investment Property [SIIN] (Deducted)
+• Impairment - Tangible & Intangible Fixed Assets [SITI] (Deducted)
+• Recognition of Negative Goodwill [SNGO]
+• Early Extinguishment of Lease Related Debts - Gain/Loss [SERD]
+• Restructuring Charges [SRST] (Deducted)
+• Litigation Expenses/Settlements [SLIT] (Deducted)
+• COVID-19 Non-Recurring Income/(Expense) - Total [SCVT]
+• Impairment - Financial Investments [SIVO] (Deducted)
+• Impairment - Deferred Costs [SIDC] (Deducted)
+• Fair Value Adjustments - Investment Property [SIPV]
+• Fair Value Adjustments - Financial Investments [SFVI]
+• Fair Value Adjustments - Other Assets [SFVO]
+
+Industrial and Property companies additionally includes:
+• Derivatives - Hedging - Gain/Loss [SDHN]
+• Early Termination of Derivatives - Hedging - Gain/Loss [SDET]
+• Derivatives - Hedging - Ineffective Gain/Loss [SDIE]
+• Unrealized Adjustments on Derivatives for Hedging [SDUA]
+
+Industrial companies additionally includes:
+• Research & Development - in Process [SRDW]
+• Valuation of Inventory - Gain/(Loss) [SVAI]
+• Fair Value Adjustments - Biological Assets [SFVB]
+• Special Income - Total [XSPI]
+• Special Expense - Total [XSPE]
+
+Property companies additionally includes:
+• Write-Off of Real Estate Held for Sale [SWRS] (Deducted)
+• Property-Related Acquisition Expenses [SPAE] (Deducted)
+
+Insurance companies additionally includes:
+• Exceptional Claims & Benefits Paid (Catastrophes) [SETR] (Deducted)
+
+In the absence of above, it includes:
+• Non-Recurring Income/Expense [ENRE]."
+26,TR.F.ImpairTangIntangFixedAssets,"Impairment - Tangible & Intangible Fixed Assets [SITI] represents the total value of impairment of all assets.  It includes a non-recurring item related to the unexpected and unplanned value write-down of long-lived assets or assets held for use, company acquisition costs (goodwill), other intangible assets and oil and natural gas assets. Applicable to all Industries.
+Impairment - Tangible & Intangible Fixed Assets [SITI] includes:
+• Impairment - Fixed Assets [SIFO]
+• Impairment - Goodwill [SIGO]
+• Impairment - Intangibles excluding Goodwill [SIIO]
+
+Industrial companies additionally includes:
+• Impairment - Oil & Gas Assets [SIOG]"
+27,TR.F.ImpairFixedAssets,"Impairment - Fixed Assets [SIFO] represents a non-recurring item related to the unexpected and unplanned value write-down of long-lived assets or assets held for use. These assets are retained by the reporting company. This item is applicable to all industries and may also be reported as part of the business and geographic segment information.
+Impairment - Fixed Assets [SIFO] includes:
+• Impairment - Fixed Assets [EIFO]"
+28,TR.F.RestrChrg,"Restructuring Charges [SRST] represents expenses or provisions associated with the reorganization of certain functions, regrouping of divisions or closing of a facility/branch. These may include the consolidation of divisions, relocation of facilities and/or employees, and employee termination costs. Applicable to all Industries.
+Restructuring Charges [SRST] includes:
+• Restructuring Charges & Provisions [ERES]"
+29,TR.F.IncBefTax,"Income before Taxes [SIBT] represents as reported income/loss after all operating and non-operating income and expense before the deduction of income tax. Applicable to all industries.
+Income before Taxes [SIBT] includes:
+• Net Income before Tax [XIBT]
+Include if the below items are reported after Pretax Income:
+• Amortization of Goodwill [EAMA]
+• Impairment - Goodwill [EIGO]
+• Labor & Related Expenses in Selling, General & Administrative Expenses [ELAS]
+• Management Remuneration [EMEN]
+• Workers' Profits Participation & Welfare Funds [EWPF]
+• Property & Other Taxes [EPOT]
+
+Exclude below items if reported as pretax items:
+• Equity Earnings - Net of Tax [CEIA]
+• Wealth Taxes [CTWT]
+• Minority Interest - Continuing Operations [CMIN]
+• Final Tax [FTAX]
+• Research & Development Expense - Tax Credit [ERTC]
+
+In the absence of Net Income before Tax [XIBT], it includes:
+• Normalized Pre-tax Profit [SNPX]
+• Non-Recurring Income/(Expense) - Total [SGLN]"
+30,TR.F.IncTax,"Income Taxes [STAX] represents total income taxes for the period. Applicable to all Industries.
+Income Taxes [STAX] includes:
+• Provision for Income Tax – Unclassified [SPAX]
+• Income Taxes for the Year - Current [SCTX]
+• Income Taxes - Deferred [SDTR]
+• Income Taxes - Other (by Type) [SOTX]
+• Provision for Income Tax Expense- Unclassified [SPRX]
+
+Investment companies additionally includes:
+• Taxes on Capital Account [STCX]
+• Taxes on Revenue Account [STRX]
+
+In the absence of above, it includes:
+Income Taxes - Total [XTAX]"
+31,TR.F.NetIncAfterTax,"Net Income after Tax [SIAT] represents the income/expense after all operating and non-operating income and expense, reserves, income taxes, but before equity in earnings, minority interest, extraordinary items, after-tax adjustments, discontinued operations and preferred dividends. Applicable to all Industries.
+Net Income after Tax [SIAT] includes:
+• Income before Taxes [SIBT]
+• Income Taxes [STAX}
+
+In the absence of above, it includes:
+• Net Income after Tax [XIAT]"
+32,TR.F.IncBefDiscOpsExordItems,"Income before Discontinued Operations & Extraordinary Items [SICO] represents a sum of the income/expense after all operating and non-operating income and expense, reserves, income taxes but before equity in earnings, minority interest, extraordinary items, after-tax adjustments, discontinued operations and preferred dividends (Net Income after Tax [SIAT]), the share of earnings/losses that the company is entitled to from unconsolidated affiliated companies which has not been distributed as dividends (Equity in Earnings of Affiliates (after Taxes) [SQEA]) and adjustments to net income reported after taxes but before equity in earnings, minority interest, extraordinary items, discontinued operations and preferred dividends (After-Tax Adjustments - Other - Total [SOAN]). Applicable to all Industries.
+Income before Discontinued Operations & Extraordinary Items [SICO] is the sum of:
+• Equity in Earnings of Affiliates (after Taxes) [SQEA]
+• After-Tax Adjustments - Other - Total [SOAN]
+• Net Income after Tax [SIAT]"
+33,TR.F.ExordActivAfterTaxGL,"Extraordinary Activities - after Tax - Gain/(Loss) [STEX] represents the all after tax extraordinary items reported by the company. Applicable to all Industries.
+Extraordinary Activities - after Tax - Gain/(Loss) [STEX] includes:
+• Discontinued Operations - Net of Taxes - Total [SDON]
+• Impacts from Changes in Accounting Standards [SGAP]
+• Extraordinary Items [SXTR]
+• Extraordinary Items - Tax Impact [SSIT]
+
+In the absence of the breakdown above it includes Extraordinary Items (after Tax) [XTEX]."
+34,TR.F.DiscOpsNetOfTaxTot,"Discontinued Operations - Net of Taxes - Total - Income/(Expense) [SDON] represent net result from current discontinued operations combined with the sale of discontinued operations, after taxes. Applicable to all Industries.
+Discontinued Operations - Net of Taxes - Total - Income/(Expense) [SDON] includes:
+• Discontinued Operations - Net - Income/Expense [SXCD]
+• Sale of Discontinued Operations - Net - Gain/Loss [SXDD]
+• Discontinued Operations before Tax [SDBT]
+• Discontinued Operations - Tax Impacts [STID]
+
+In the absence of the breakdown above it includes Discontinued Operations - Net of Taxes [XDOT]."
+35,TR.F.SaleOfDiscOpsNetGL,"Sale of Discontinued Operations - Net - Gain/(Loss) [SXDD] represents any gain/loss from the sale/disposal of business unit or subsidiary, net of tax. Applicable to all industries. 
+Sale of Discontinued Operations - Net - Gain/(Loss) [SXDD] includes: 
+• Sale of Discontinued Operations - Net - Gain/Loss [ZDDN]"
+36,TR.F.DiscOpsBefTaxTot,"Discontinued Operations before Tax - Total - Income/(Expense) [SDBT] represents the value of all discontinued operations reported before income tax. Applicable to all Industries.
+Discontinued Operations before Tax - Total - Income/(Expense) [SDBT] includes:
+• Discontinued Operations before Tax [ZDBU]
+
+If the account above is not available, it includes:
+• Discontinued Operations before Tax - Income/Expense [SDCG]
+• Sale of Discontinued Operations before Tax - Gain/Loss [SDDG]"
+37,TR.F.DiscOpsBefTaxIncExpn,"Discontinued Operations before Tax - Income/(Expense) [SDCG] represents the gross current income and expenses generated by the operations of a business unit or subsidiary available for sale, before deduction of taxes. Applicable to all Industries.
+Discontinued Operations before Tax - Income/(Expense) [SDCG] includes: 
+• Discontinued Operations before Tax - Income/Expense [ZCDG]"
+38,TR.F.DiscOpsTaxImpacts,"Discontinued Operations - Tax Impacts [STID] represents tax on discontinued operations. Applicable to all Industries.
+Discontinued Operations - Tax Impacts [STID] includes:
+• Discontinued Operations - Tax Impacts - Current Income/Expense [ETDT]
+• Discontinued Operations - Tax Impacts - Gain/Loss on Sale [ETDD]
+• Discontinued Operations - Tax Impacts [ETID]"
+39,TR.F.NetIncBefMinIntr,Net Income before Minority Interest [SIBM] represents the sum of Income before Discontinued Operations & Extraordinary Items [SICO] and all after tax extraordinary items reported by the company (Extraordinary Activities - after Tax - Gain/Loss [STEX]). If the statement is non-detailed Net Income before Minority Interest [SIBM] is equal to Net Income after Extraordinary Items [XNIX]. Applicable to all Industries.
+40,TR.F.MinIntr,"Minority Interest [SMNI] represents the share of earnings/losses in subsidiaries that belongs to shareholders other than the parent company when the parent company owns less than 100%, but more than 50%, of a subsidiary. Since the subsidiary's financials are consolidated by the company, this value is a negative number to represent the amount the company does not own. Applicable to all Industries.
+Minority Interest [SMNI] includes:
+• Minority Interest - Continuing Operations [CMIN]
+
+If the account above is not available, it includes Minority Interest - Total [XIMI]."
+41,TR.F.NetIncAfterMinIntr,"Net Income after Minority Interest [SNIC] represents total net income/loss reported by the company after provision for income taxes, equity in earnings, after-tax adjustments, discontinued operations, extraordinary items and minority interest, but before other adjustments to net income, preferred dividends and other distributions. Applicable to all Industries.
+Net Income after Minority Interest [SNIC] includes:
+• Net Income before Minority Interest [SIBM]
+• Minority Interest [SMNI] (Deducted)
+
+In the absence of above, it includes:
+• Net Income - including Extraordinary Items [XNIC]"
+42,TR.F.IncAvailToComShr,"Income Available to Common Shares [SNIS] represents total net income/loss reported by  the company after provision for income taxes, equity in earnings, after-tax adjustments, discontinued operations, extraordinary items and minority interest, but before other adjustments to net income, preferred dividends and other distributions. Applicable to all Industries.
+Income Available to Common Shares [SNIS] includes:
+• Net Income after Minority Interest [SNIC*]
+• Interest Expense - Hybrid Debt Instruments - Equity [SIHD] (deducted)
+• Distribution for General Partners [SDSP]  (deducted)
+• Distribution for Preferred Shares [SDFS]  (deducted)
+• Earnings Adjustments to Net Income - Other [SOAJ] (deducted)
+
+Insurance companies additionally includes:
+• Policyholders Surplus [SPHS] (deducted)
+
+In the absence of the item [*] above it uses Net Income - including Extraordinary Items applicable to Common [XNCX]."
+43,TR.F.NetIncBasicInclExordItemsComTot,Net Income - Basic - including Extraordinary Items Applicable to Common - Total [BINCC] represents Income Available to Common Shares [SNIS]. Applicable to all Industries.
+44,TR.F.IncAvailToComExclExordItems,"Income available to Common excluding Extraordinary Items [SNCN] represents income before extraordinary items and preferred and common dividends, but after operating and non-operating income and expense, reserves, income taxes, minority interest and equity in earnings. Applicable to all Industries.
+Income available to Common excluding Extraordinary Items [SNCN] is the difference between:
+• Income Available to Common Shares [SNIS]
+• Extraordinary Activities - after Tax - Gain/Loss [STEX]"
+45,TR.F.ShrUsedToCalcBasicEPSTot,"Shares used to calculate Basic EPS - Total [SBASC] represents the weighted average common shares outstanding used to calculate earnings and other per share items, at company level. Applicable to all Industries.
+Shares used to calculate Basic EPS - Total [SBASC] includes:
+• Shares used to calculate Basic EPS [BWASC]
+
+Alternatively if CPO is primary Instrument for the company, it is:
+• Shares used to calculate Basic EPS - Issue Specific - CPO [BWASICPO]"
+46,TR.F.EPSBasicInclExordItemsComTot,"EPS - Basic - including Extraordinary Items Applicable to Common - Total [SBAIC] represents the basic bottom line net income  available to common shareholders (Income Available to Common Shares [SNIS]) per share (Shares used to calculate Basic EPS - Total [SBASC], at company level. Applicable to all Industries.
+EPS - Basic - including Extraordinary Items Applicable to Common - Total [SBAIC] includes:
+• EPS - Basic - including Extraordinary Items Applicable to Common - Total [BEPSBC] (if the calculation above is not available)"
+47,TR.F.EPSBasicExclExordItemsComTot,"EPS - Basic - excluding Extraordinary Items Applicable to Common - Total [SBCOC] represents the net income available to common shareholders, excluding extraordinary items (Income available to Common excluding Extraordinary Items [SNCN]) per share (Shares used to calculate Basic EPS - Total [SBASC]), at company level. Applicable to all Industries.
+EPS - Basic - excluding Extraordinary Items Applicable to Common - Total [SBCOC] includes:
+• EPS - Basic - excluding Extraordinary Items Applicable to Common - Total [BEPSCC] (if the calculation above is not available)
+
+Alternatively if CPO is primary Instrument for the company, it is calculated as: 
+• Income available to Common excluding Extraordinary Items [SNCN] /Shares used to calculate Basic EPS - Issue Specific - CPO [BWASICPO], or 
+• EPS - Basic - excluding Extraordinary Items Applicable to Common - Issue Specific - CPO [BEPSCICPO]"
+48,TR.F.EPSBasicExclExordItemsNormTot,EPS - Basic - excluding Extraordinary Items - Normalized - Total [SBESC] represents the value of Normalized Net Income - Bottom Line [SIBL] divided by the Number of basic weighted average shares used to calculate earnings and other per share item on company level (Shares used to calculate Basic EPS - Total [SBASC]). Applicable to all industries.
+49,TR.F.AllocNetIncInclExordItemsComIssue,"Allocated Net Income including Extraordinary Items Applicable to Common - Issue Specific [BINCI] represents basic net income allocated to a particular share issue. Applicable to all industries.
+Allocated Net Income including Extraordinary Items Applicable to Common - Issue Specific [BINCI] includes:
+• Allocated Net Income including Extraordinary Items Applicable to Common - Issue Specific [XBINCI]"
+50,TR.F.EarnAllocFactorBasicIssue,"Earnings Allocation Factor - Basic - Issue Specific [BEAFI] represents factor used to allocate part of company-level earnings per share to a specific share issue/instrument. Applicable to all industries.
+Earnings Allocation Factor - Basic - Issue Specific [BEAFI] includes:
+• Earnings Allocation Factor - Issue Specific [XBEAFI]"
+51,TR.F.EarnAllocFactorBasicIssue,"Earnings Allocation Factor - Basic - Issue Specific [BEAFI] represents factor used to allocate part of company-level earnings per share to a specific share issue/instrument. Applicable to all industries.
+Earnings Allocation Factor - Basic - Issue Specific [BEAFI] includes:
+• Earnings Allocation Factor - Issue Specific [XBEAFI]"
+52,TR.F.ShrUsedToCalcBasicEPSIssue,"Shares used to calculate Basic EPS - Issue Specific [SBASI] represents the weighted average common shares outstanding used to calculate earnings and other per share items, per specific share issue. Applicable to all Industries.
+Shares used to calculate Basic EPS - Issue Specific [SBASI] includes:
+• Shares used to calculate Basic EPS - Issue Specific [BWASI]"
+53,TR.F.EPSBasicInclExordItemsComIssue,"EPS - Basic - including Extraordinary Items Applicable to Common - Issue Specific [SBAII] represents as reported basic bottom line net income (Allocated Net Income including Extraordinary Items Applicable to Common - Issue Specific [BINCI]) per share (Shares used to calculate Basic EPS - Issue Specific [SBASI]) available to common shareholders. Reported per specific share issues. Applicable to all Industries.
+
+It uses Net Income - Basic - including Extraordinary Items Applicable to Common - Total [BINCC] as numerator if the account above is not available.
+
+If calculation above is not available, it uses EPS - Basic - including Extraordinary Items Applicable to Common - Issue Specific [BEPSBI]."
+54,TR.F.EPSBasicInclExordItemsComIssue,"EPS - Basic - including Extraordinary Items Applicable to Common - Issue Specific [SBAII] represents as reported basic bottom line net income (Allocated Net Income including Extraordinary Items Applicable to Common - Issue Specific [BINCI]) per share (Shares used to calculate Basic EPS - Issue Specific [SBASI]) available to common shareholders. Reported per specific share issues. Applicable to all Industries.
+
+It uses Net Income - Basic - including Extraordinary Items Applicable to Common - Total [BINCC] as numerator if the account above is not available.
+
+If calculation above is not available, it uses EPS - Basic - including Extraordinary Items Applicable to Common - Issue Specific [BEPSBI]."
+55,TR.F.EPSBasicExclExordItemsComIssue,"EPS - Basic - excluding Extraordinary Items Applicable to Common - Issue Specific [SBCOI] represents as reported basic net income including all after tax items but before extraordinary items (Income available to Common excluding Extraordinary Items [SNCN]) per share (Shares used to calculate Basic EPS - Issue Specific [SBASI]). Reported per specific share issues. Applicable to all Industries.
+EPS - Basic - excluding Extraordinary Items Applicable to Common - Issue Specific [SBCOI] includes:
+• EPS - Basic - excluding Extraordinary Items Applicable to Common - Issue Specific [BEPSCI] (if calculation above is not available)"
+56,TR.F.EPSBasicExclExordItemsComIssue,"EPS - Basic - excluding Extraordinary Items Applicable to Common - Issue Specific [SBCOI] represents as reported basic net income including all after tax items but before extraordinary items (Income available to Common excluding Extraordinary Items [SNCN]) per share (Shares used to calculate Basic EPS - Issue Specific [SBASI]). Reported per specific share issues. Applicable to all Industries.
+EPS - Basic - excluding Extraordinary Items Applicable to Common - Issue Specific [SBCOI] includes:
+• EPS - Basic - excluding Extraordinary Items Applicable to Common - Issue Specific [BEPSCI] (if calculation above is not available)"
+57,TR.F.EPSBasicExclExordItemsNormIssue,EPS - Basic - excluding Extraordinary Items - Normalized - Issue Specific [SBESI] represents the value of Normalized Net Income - Bottom Line [SIBL] divided by the number of basic weighted average shares used to calculate earnings and other per share item on instrument level (Shares used to calculate Basic EPS - Issue Specific [SBASI]). Applicable to all industries.
+58,TR.F.EPSBasicExclExordItemsNormIssue,EPS - Basic - excluding Extraordinary Items - Normalized - Issue Specific [SBESI] represents the value of Normalized Net Income - Bottom Line [SIBL] divided by the number of basic weighted average shares used to calculate earnings and other per share item on instrument level (Shares used to calculate Basic EPS - Issue Specific [SBASI]). Applicable to all industries.
+59,TR.F.ShrUsedToCalcBasicEPSIssueDR,"Shares used to calculate Basic EPS - Issue Specific - DR [SBASIDR] represents the weighted average common shares outstanding used to calculate earnings and other per share items, per depository receipt (DR) ratio of the underlying instrument. Applicable to all Industries.
+Shares used to calculate Basic EPS - Issue Specific - DR [SBASIDR] includes:
+• Shares used to calculate Basic EPS - Issue Specific - DR [BWASIDR]"
+60,TR.F.EPSBasicInclExordItemsComIssueDR,"EPS - Basic - including Extraordinary Items Applicable to Common - Issue Specific - DR [SBAIIDR] represents the basic bottom line net income per share available to common shareholders, per depository receipt (DR) ratio of the underlying instrument. Applicable to all Industries.
+EPS - Basic - including Extraordinary Items Applicable to Common - Issue Specific - DR [SBAIIDR] includes:
+• EPS - Basic - including Extraordinary Items Applicable to Common - Issue Specific - DR [BEPSBIDR]"
+61,TR.F.EPSBasicExclExordItemsComIssueDR,"EPS - Basic - excluding Extraordinary Items Applicable to Common - Issue Specific - DR [SBCOIDR] represents the as reported net income per share from continuing operations, per depository receipt (DR) ratio of the underlying instrument. Applicable to all Industries.
+EPS - Basic - excluding Extraordinary Items Applicable to Common - Issue Specific - DR [SBCOIDR] includes:
+• EPS - Basic - excluding Extraordinary Items Applicable to Common - Issue Specific - DR [BEPSCIDR]"
+62,TR.F.EPSBasicExclExordItemsNormIssueDR,"EPS - Basic - excluding Extraordinary Items - Normalized - Issue Specific - DR [SBESIDR] representsNormalized Net Income - Bottom Line, per depository receipt (DR) ratio of the underlying instrument. Applicable to all industries.
+EPS - Basic - excluding Extraordinary Items - Normalized - Issue Specific - DR [SBESIDR] includes:
+• Normalized Net Income - Bottom Line [SIBL] divided by
+• Shares used to calculate Basic EPS - Issue Specific - DR [SBASIDR]"
+63,TR.F.EPSBasicDiscOpsExordItems,"EPS - Basic from Discontinued Operations & Extraordinary Items [SEPSXB] represents the basic per share of the gain/loss resulting from nonrecurring or unusual events and discontinued operations. Applicable to all Industries.
+EPS - Basic from Discontinued Operations & Extraordinary Items [SEPSXB] is difference between: 
+• EPS - Basic - including Extraordinary Items Applicable to Common - Total [SBAIC]
+• EPS - Basic - excluding Extraordinary Items Applicable to Common - Total [SBCOC]"
+64,TR.F.NetIncDilInclExordItemsComTot,Net Income - Diluted - including Extraordinary Items Applicable to Common - Total [DINCC] represents a sum of Income Available to Common Shares [SNIS] and the value of Diluted Adjustment [CDAJ]. Applicable to all Industries.
+65,TR.F.DilIncAvailToComExclExordItems,"Diluted Income available to Common excluding Extraordinary Items [SNCND] represents Diluted net income after dilution adjustments but before After-tax extraordinary items. Applicable to Industrial companies.
+Diluted Income available to Common excluding Extraordinary Items [SNCND] includes: 
+• Income Available to Common Shares [SNIS]
+• Dilution Adjustment [CDAJ]
+• Extraordinary Activities - after Tax - Gain/Loss [STEX] (deducted)"
+66,TR.F.ShrUsedToCalcDilEPSTot,"Shares used to calculate Diluted EPS - Total [SDWSC] represents the diluted weighted average shares used to calculate earnings and other per share items, at company level. Applicable to all Industries:
+Shares used to calculate Diluted EPS - Total [SDWSC] includes:
+• Shares used to calculate Diluted EPS - Total [DWASC]
+
+Alternatively if CPO is primary Instrument for the company, it is:
+• Shares used to calculate Diluted EPS - Issue Specific - CPO [DWASICPO]"
+67,TR.F.EPSDilInclExordItemsComTot,"EPS - Diluted - including Extraordinary Items Applicable to Common - Total [SDAIC] represents the diluted bottom line net income available to common shareholders (Net Income - Diluted - including Extraordinary Items Applicable to Common [CDNI]) per share (Shares used to calculate Diluted EPS - Total [SDWSC]), at company level. Applicable to all Industries.
+
+It uses Net Income - Diluted - including Extraordinary Items Applicable to Common - Total [DINCC] as numerator if the account above is not available.
+
+If calculation above is not available, it uses EPS - Diluted - including Extraordinary Items Applicable to Common - Total [DEPSBC]."
+68,TR.F.EPSDilExclExordItemsComTot,"EPS - Diluted - excluding Extraordinary Items Applicable to Common - Total [SDCOC] represents the diluted net income available to common shareholders excluding extraordinary items (Diluted Income available to Common excluding Extraordinary Items [SNCND]) per share (Shares used to calculate Diluted EPS - Total [SDWSC]), at company level. Applicable to all Industries.
+EPS - Diluted - excluding Extraordinary Items Applicable to Common - Total [SDCOC] includes:
+• EPS - Diluted - excluding Extraordinary Items Applicable to Common - Total [DEPSCC] (if calculation above is not available)
+
+Alternatively if CPO is primary Instrument for the company, it is calculated as: 
+• Diluted Income available to Common excluding Extraordinary Items [SNCND] / Shares used to calculate Diluted EPS - Issue Specific - CPO [DWASICPO], or 
+• EPS - Diluted - excluding Extraordinary Items Applicable to Common - Issue Specific - CPO [DEPSCICPO]"
+69,TR.F.EPSDilExclExordItemsNormTot,EPS - Diluted - excluding Extraordinary Items - Normalized - Total [SDESC] represents the value of Normalized Net Income - Bottom Line [SIBL] divided by the number of diluted weighted average shares used to calculate earnings and other per share item on company level (Shares used to calculate Diluted EPS - Total [SDWSC]).  Applicable to all Industries.
+70,TR.F.AllocDilNetIncInclExordItemsComIssue,"Allocated Diluted Net Income including Extraordinary Items Applicable to Common - Issue Specific [DINNCI] represents diluted net income allocated to a specific share issue. Applicable to all industries.
+Allocated Diluted Net Income including Extraordinary Items Applicable to Common - Issue Specific [DINNCI] includes:
+• Allocated Diluted Net Income including Extraordinary Items Applicable to Common - Issue Specific [XDINCI]"
+71,TR.F.EarnAllocFactorDilIssue,"Earnings Allocation Factor - Diluted - Issue Specific [DEAFI] represents the proportion of each share issue to the total profits of the company. It is being collected on the instrument level only for basic and diluted shares. This item is commonly not reported and in that case will be derived. For companies with single issue, Earnings Allocation Factor - Diluted - Issue Specific [DEAFI] is always equal to one. For companies with multiple issues, it is generally calculated as the number of weighted average shares of an issue divided by the combined weighted average shares of all the issues. The weighted shares used already take into account the ratio used to convert the secondary class of shares to primary equivalent. Applicable to all industries. 
+Earnings Allocation Factor - Diluted - Issue Specific [DEAFI] includes:
+• Diluted Earnings Allocation Factor - Issue Specific [XDEAFI]"
+72,TR.F.EarnAllocFactorDilIssue,"Earnings Allocation Factor - Diluted - Issue Specific [DEAFI] represents the proportion of each share issue to the total profits of the company. It is being collected on the instrument level only for basic and diluted shares. This item is commonly not reported and in that case will be derived. For companies with single issue, Earnings Allocation Factor - Diluted - Issue Specific [DEAFI] is always equal to one. For companies with multiple issues, it is generally calculated as the number of weighted average shares of an issue divided by the combined weighted average shares of all the issues. The weighted shares used already take into account the ratio used to convert the secondary class of shares to primary equivalent. Applicable to all industries. 
+Earnings Allocation Factor - Diluted - Issue Specific [DEAFI] includes:
+• Diluted Earnings Allocation Factor - Issue Specific [XDEAFI]"
+73,TR.F.ShrUsedToCalcEPSDilIssue,"Shares used to calculate Diluted EPS - Issue Specific [SDWSI] represents diluted weighted average shares used to calculate earnings and other per share item. To be used at instrument level. Applicable to all Industries.
+Shares used to calculate Diluted EPS - Issue Specific [SDWSI] includes:
+• Shares used to calculate Diluted EPS - Issue Specific [DWASI]"
+74,TR.F.EPSDilInclExordItemsComIssue,"EPS - Diluted - including Extraordinary Items Applicable to Common - Issue Specific [SDAII] represents as reported diluted bottom line net income available to common shareholders (Allocated Diluted Net Income including Extraordinary Items Applicable to Common - Issue Specific [DINCCI]) per share (Shares used to calculate EPS - Diluted - Issue Specific [SDWSI]). Reported per specific share issues. Applicable to all Industries.
+
+It uses Net Income - Diluted - including Extraordinary Items Applicable to Common - Total [DINCC] as numerator if the account above is not available.
+
+If calculation above is not available, it uses EPS - Diluted - including Extraordinary Items Applicable to Common - Issue Specific [DEPSBI]."
+75,TR.F.EPSDilInclExordItemsComIssue,"EPS - Diluted - including Extraordinary Items Applicable to Common - Issue Specific [SDAII] represents as reported diluted bottom line net income available to common shareholders (Allocated Diluted Net Income including Extraordinary Items Applicable to Common - Issue Specific [DINCCI]) per share (Shares used to calculate EPS - Diluted - Issue Specific [SDWSI]). Reported per specific share issues. Applicable to all Industries.
+
+It uses Net Income - Diluted - including Extraordinary Items Applicable to Common - Total [DINCC] as numerator if the account above is not available.
+
+If calculation above is not available, it uses EPS - Diluted - including Extraordinary Items Applicable to Common - Issue Specific [DEPSBI]."
+76,TR.F.EPSDilExclExordItemsComIssue,"EPS - Diluted - excluding Extraordinary Items Applicable to Common - Issue Specific [SDCOI] represents as reported diluted net income including all after tax items but before extraordinary items (Diluted Income available to Common excluding Extraordinary Items [SNCND]) per share (Shares used to calculate EPS - Diluted - Issue Specific [SDWSI]). Reported per specific share issues. Applicable to all Industries.
+EPS - Diluted - excluding Extraordinary Items Applicable to Common - Issue Specific [SDCOI] includes:
+• EPS - Diluted - excluding Extraordinary Items Applicable to Common - Issue Specific [DEPSCI] (if calculation above is not available)"
+77,TR.F.EPSDilExclExordItemsComIssue,"EPS - Diluted - excluding Extraordinary Items Applicable to Common - Issue Specific [SDCOI] represents as reported diluted net income including all after tax items but before extraordinary items (Diluted Income available to Common excluding Extraordinary Items [SNCND]) per share (Shares used to calculate EPS - Diluted - Issue Specific [SDWSI]). Reported per specific share issues. Applicable to all Industries.
+EPS - Diluted - excluding Extraordinary Items Applicable to Common - Issue Specific [SDCOI] includes:
+• EPS - Diluted - excluding Extraordinary Items Applicable to Common - Issue Specific [DEPSCI] (if calculation above is not available)"
+78,TR.F.EPSDilExclExordItemsNormIssue,EPS - Diluted - excluding Extraordinary Items - Normalized - Issue Specific [SDESI] represents the value of Normalized Net Income - Bottom Line [SIBL] divided by the number of diluted weighted average shares used to calculate earnings and other per share item on instrument level (Shares used to calculate EPS - Diluted - Issue Specific [SDWSI]). Applicable to all Industries.
+79,TR.F.EPSDilExclExordItemsNormIssue,EPS - Diluted - excluding Extraordinary Items - Normalized - Issue Specific [SDESI] represents the value of Normalized Net Income - Bottom Line [SIBL] divided by the number of diluted weighted average shares used to calculate earnings and other per share item on instrument level (Shares used to calculate EPS - Diluted - Issue Specific [SDWSI]). Applicable to all Industries.
+80,TR.F.ShrUsedToCalcDilEPSIssueDR,"Shares used to calculate Diluted EPS - Issue Specific - DR [SDWSIDR] represents the diluted weighted average common shares outstanding used to calculate earnings and other per share items, per depository receipt (DR) ratio of the underlying instrument. Applicable to all Industries.
+Shares used to calculate Diluted EPS - Issue Specific - DR [SDWSIDR] includes:
+• Shares used to calculate Diluted EPS - Issue Specific - DR [DWASIDR]"
+81,TR.F.EPSDilInclExordItemsComIssueDR,"EPS - Diluted - including Extraordinary Items Applicable to Common - Issue Specific - DR [SDAIIDR] represents the diluted bottom line net income per share available to common shareholders, per depository receipt (DR) ratio of the underlying instrument. Applicable to all Industries.
+EPS - Diluted - including Extraordinary Items Applicable to Common - Issue Specific - DR [SDAIIDR] includes:
+• EPS - Diluted - including Extraordinary Items Applicable to Common - Issue Specific - DR [DEPSBIDR]"
+82,TR.F.EPSDilExclExordItemsComIssueDR,"EPS - Diluted - excluding Extraordinary Items Applicable to Common - Issue Specific - DR [SDCOIDR] represents the as reported diluted net income per share from continuing operations, per depository receipt (DR) ratio of the underlying instrument. Applicable to all Industries.
+EPS - Diluted - excluding Extraordinary Items Applicable to Common - Issue Specific - DR [SDCOIDR] includes:
+• EPS - Diluted - excluding Extraordinary Items Applicable to Common - Issue Specific - DR [DEPSCIDR]"
+83,TR.F.EPSDilExclExordItemsNormIssueDR,"EPS - Diluted - excluding Extraordinary Items - Normalized - Issue Specific - DR[SDESIDR] represents Normalized Net Income - Bottom Line, per Shares used to calculate Diluted EPS - Issue Specific - DR. Applicale to all industries.
+EPS - Diluted - excluding Extraordinary Items - Normalized - Issue Specific - DR[SDESIDR] includes:
+•Normalized Net Income - Bottom Line [SIBL] divided by
+•Shares used to calculate Diluted EPS - Issue Specific - DR[SDWSIDR]"
+84,TR.F.EPSDilDiscOpsExordItems,"EPS - Diluted from Discontinued Operations & Extraordinary Items [SEPSXD] represents the diluted per share of the gain/loss resulting from nonrecurring or unusual events and discontinued operations. Applicable to all Industries.
+EPS - Diluted from Discontinued Operations & Extraordinary Items [SEPSXD] is difference between:
+• EPS - Diluted - including Extraordinary Items Applicable to Common - Total [SDAIC]
+• EPS - Diluted - excluding Extraordinary Items Applicable to Common - Total [SDCOC]"
+85,TR.F.DPSComGrossIssue,"DPS - Common - Gross - Issue - By Announcement Date [SDPSGI] represents dividends per common share before taxes, disclosed per specific share issue on the day on which a company announces its intention to pay dividends to its shareholders. Applicable to all Industries.
+DPS - Common - Gross - Issue - By Announcement Date [SDPSGI] includes:
+• Dividends Per Share - Common - Gross - Issue Specific [XDPSGI]"
+86,TR.F.DPSComGrossIssue,"DPS - Common - Gross - Issue - By Announcement Date [SDPSGI] represents dividends per common share before taxes, disclosed per specific share issue on the day on which a company announces its intention to pay dividends to its shareholders. Applicable to all Industries.
+DPS - Common - Gross - Issue - By Announcement Date [SDPSGI] includes:
+• Dividends Per Share - Common - Gross - Issue Specific [XDPSGI]"
+87,TR.F.DPSComNetIssue,"DPS - Common - Net - Issue - By Announcement Date [SDPSNI] represents dividends per common share after taxes, disclosed per specific share issue on the day on which a company announces its intention to pay dividends to its shareholders. Applicable to all Industries.
+DPS - Common - Net - Issue - By Announcement Date [SDPSNI] includes:
+• Dividends Per Share - Common - Net - Issue Specific [XDPSNI]"
+88,TR.F.DPSComNetIssue,"DPS - Common - Net - Issue - By Announcement Date [SDPSNI] represents dividends per common share after taxes, disclosed per specific share issue on the day on which a company announces its intention to pay dividends to its shareholders. Applicable to all Industries.
+DPS - Common - Net - Issue - By Announcement Date [SDPSNI] includes:
+• Dividends Per Share - Common - Net - Issue Specific [XDPSNI]"
+89,TR.F.DPSComGrossIssueDR,"DPS - Common - Gross - Issue - DR - By Announcement Date [SDPSGIDR] represents dividends per common share before taxes, disclosed per specific share issue on the day on which a company announces its intention to pay dividends to its shareholders. Applicable to all industries.
+DPS - Common - Gross - Issue - DR - By Announcement Date [SDPSGIDR] includes:
+• Dividends Per Share - Common - Gross - by Declaration Date [DPSCDD] (Divided by DR ratio)
+• Dividends Per Share - Common - Gross - Issue Specific [XDPSGI] (Divided by DR ratio)"
+90,TR.F.DPSComNetIssueDR,"DPS - Common - Net - Issue - DR - By Announcement Date [SDPSNIDR] represents represents dividends per common share after taxes, disclosed per specific share issue on the day on which a company announces its intention to pay dividends to its shareholders. Applicable to all industries. 
+DPS - Common - Net - Issue - DR - By Announcement Date [SDPSNIDR] includes:
+• DPS - Common - Net - Issue - By Announcement Date [SDPSNI] (Divided by DR ratio)"
+91,TR.F.EBIT,"Earnings before Interest & Taxes (EBIT) [SEBIT] represents a difference between total revenues reported by the company (Revenue from Business Activities - Total [STLR]) and total operating expense as reported by the company (Operating Expenses - Total [SOET]).
+In the absence of the above, it includes: 
+• Income before Taxes [SIBT] 
+• Financing Income/(Expense) - Net - Total [SFIE] (less)
+• Sale of Tangible & Intangible Fixed Assets - Gain/(Loss) [SFAS] (less) 
+• Equity Earnings/(Loss) - before Taxes including Non-Recurring [SIQA]  (less)
+• Other Non-Operating Income/(Expense) - Total [SNEI] (less)
+• Non-Recurring Income/(Expense) - Total [SGLN] (less)
+Applicable to all Industries."
+92,TR.F.EBITDA,"Earnings before Interest, Taxes, Depreciation & Amortization (EBITDA) [SEBITDA] represents a sum of Earnings before Interest and Taxes [SEBIT] and the total depreciation and amortization value for the period [STDAE]. Applicable to all Industries."
+93,TR.F.NonGAAPAdjNetEarn,"Non-GAAP Adjusted Net Earnings - Company Reported [SNAN] represents net earnings calculated in accordance with GAAP as adjusted for the impact of stock based compensation and other special items less related tax effects as well as net income/loss from discontinued operations.  Non-GAAP Adjusted Net Earnings are an alternative method used to measure the earnings of a company, and many companies report non-GAAP earnings in addition to their earnings as calculated through generally accepted accounting principles (GAAP). Some managers believe that these alternate figures provide a more accurate measurement of the company's financial performance. Companies use different terminologies such as Non-GAAP, Adjusted, Underlying, Core & Non-IFRS to report Non-GAAP measures. This is collected as reported by the company. Applicable to all Industries.
+Non-GAAP Adjusted Net Earnings - Company Reported [SNAN] includes:
+• Non-GAAP Adjusted Net Earnings [CNAN]"
+94,TR.F.NonGAAPAdjEBITDA,"Non-GAAP Adjusted EBITDA - Company Reported [SNAE] represents earnings before interest, taxes, depreciation and income taxes adjusted to exclude total stock-based compensation expense, costs incurred to spin-off, costs associated with business transformation plan, trademark royalty costs, gain or loss related to pre-spin off etc. Adjusted EBITDA differs from EBITDA in that adjusted EBITDA normalizes income and expenses since different companies may treat each type of income and expense differently. By standardizing cash flows and discounting anomalies that may occur, adjusted, or normalized, EBITDA can provide a useful measure of comparison when evaluating multiple companies. This is collected as reported by the company. Applicable to all Industries.
+Non-GAAP Adjusted EBITDA - Company Reported [SNAE] includes:
+• Non-GAAP Adjusted EBITDA [CNAE]"
+95,TR.F.NonGAAPEPSBasic,"Non-GAAP EPS Basic - Company Reported [SNEB] represents non-GAAP basic EPS reported by the company. The company may sometimes report different flavors of EPS like non-GAAP basic EPS from continuing operations, non-GAAP basic EPS from discontinuing operations or non-GAAP basic EPS but we should always collect bottom line EPS to this field i.e. collect basic non-GAAP EPS including extraordinary items to this field. This is collected as reported by the company. Applicable to all Industries.
+Non-GAAP EPS Basic - Company Reported [SNEB] includes:
+• Non-GAAP EPS Basic [CNEB]"
+96,TR.F.NormAfterTaxProf,"Normalized after Tax Profit [SNAT] represents the value of income/expense after all operating and non-operating income and expense, reserves, income taxes, but before equity in earnings, minority interest, extraordinary items, after-tax adjustments, discontinued operations and preferred dividends (Net Income after Tax [SIAT]) deducted by the total value of non-recurring income or expenses (Non-Recurring Income/Expense - Total [SGLN]). Applicable to all Industries."
+97,TR.F.NormNetIncContOps,Normalized Net Income from Continuing Operations [SNCO] represents the difference between Income before Discontinued Operations & Extraordinary Items [SICO] and Non-Recurring Income/Expense - Total [SGLN]. Applicable to all Industries.
+98,TR.F.NormNetIncBottomLine,"Normalized Net Income - Bottom Line [SIBL] represents total net income/loss reported by  the company after provision for income taxes, equity in earnings, after-tax adjustments, discontinued operations, extraordinary items and minority interest, but before other adjustments to net income, preferred dividends and other distributions (Income Available to Common Shares [SNIS]) adjusted by the total value of non-recurring income or expenses (Non-Recurring Income/Expense - Total [SGLN]) and total after tax extraordinary items (Extraordinary Activities - after Tax - Gain/Loss [STEX]). Applicable to all Industries."
+99,TR.F.EBITNorm,"Earnings before Interest & Taxes (EBIT) - Normalized [SNEBIT] represents pre-tax profit without the effect of unusual or extraordinary income/expense and interest expense. Applicable to all Industries.
+Earnings before Interest & Taxes (EBIT) - Normalized [SNEBIT] includes: 
+• Normalized Pre-tax Profit [SNPX]
+• Interest Expense - Net of Interest Income [SNII]"
+100,TR.F.IncBefTaxProvForLoanLosses,"Income before Taxes & Provision for Loan Losses [SIBTLLP] represents the value of as reported income/loss after all operating and non-operating income and expense, before the deduction of income tax adjusted by the value of provisions established for possible defaults or renegotiations by customers on loans from a financial institution. Applicable to Insurance companies.
+Income before Taxes & Provision for Loan Losses [SIBTLLP] includes:
+• Income before Taxes [SIBT]
+• Provision & Impairment for Loan Losses [SLLP]"
+101,TR.F.IntrExpnFinLeaseLiabSuppl,"Interest Expense on Financial Lease Liabilities - Supplemental [SVIFL] represents the interest expense on financial (capital) leases. The data item is disclosed under the lease footnote. Applicable to all industries.
+Interest Expense on Financial Lease Liabilities [SVIFL] includes:
+• Interest on right-of-use liabilities 
+• Amortization of financial lease liabilities."
+102,TR.F.COGSInclOpMaintUtilTot,"Cost of Revenue including Operation & Maintenance (Utility) - Total [SCREV] represents the total cost of manufacturing and distributing goods and facilities by utility companies. It is the sum of Cost of Operating Revenue [SCOR] and Operating & Maintenance (Utility) [SDOE]. Applicable for Industrial, Property, Other Financial & Investment Trust Companies.
+Cost of Revenue including Operation & Maintenance (Utility) - Total [SCREV] includes:
+• Cost of Operating Revenue [SCOR]
+• Operations & Maintenance (Utility) [SDOE]"
+103,TR.F.COGSExclDepr,"Cost of Revenues excluding Depreciation [SCOGXD] represents the total value of costs of goods and services diminished by the value of depreciation and amortization reported within costs of goods sold. Applicable to Industrial, Property, Investment Trust and Other Financial companies.
+Cost of Revenues excluding Depreciation [SCOGXD] includes:
+• Cost of Financing-Related Operations [SCFS]
+• Cost of Revenues - Total [SCGS]
+• Amortization in Cost of Revenues [SACS] (deducted)
+• Depreciation in Cost of Revenues [SDCS] (deducted)"
+104,TR.F.IntrExpn,"Interest Expense [SINTEX] represents Net interest expense. Applicable to all Industries
+Interest Expense [SINTEX] includes:
+•Interest Expense - Net of Capitalized Interest[SIEN]
+•Interest Expense - Finance - Total[SIET]"
+105,TR.F.OpExpn,"Operating Expenses [SOPEX] represents the total expenses. Applicable to all Industries.
+Operating Expenses [SOPEX] is the difference between:
+• Revenue from Business Activities - Total [STLR]
+• Earnings before Interest & Taxes (EBIT) [SEBIT]"
+106,TR.F.SGAExclRnD,"Selling, General & Administrative Expenses excluding Research & Development Expenses [SGAXRD] represents Selling, General & Administrative expenses excluding R&D expenses. Applicable to all industries.
+Selling, General & Administrative Expenses excluding Research & Development Expenses [SGAXRD] includes:
+• Selling, General & Administrative Expenses - Total [SSGA]
+• Less Research & Development Expense - Supplemental [SRDE]
+
+Banks and Insurance companies additionally includes:
+• Stock-Based Compensation in Research & Development Expense [ESCR]"
+107,TR.F.TaxAdjOpInc,"Tax Adjusted Operating Income [SINVC] represents Income before Discontinued Operations & Extraordinary Items adjusted to the Interest Expense Net (adjusted to Tax Rate). Applicable to all industries (Input to analytics).
+Tax Adjusted Operating Income [SINVC] includes:
+• Net Income after Minority Interest [SNIC]
+• Interest Expense - Net of Capitalized Interest [SIEN]"
+108,TR.F.FixedChrg,"Fixed Charges [SFXC] represents the sum of Interest Expense Net & Preferred Dividends adjusted to the Tax rate. Applicable to all industries.
+Fixed Charges [SFXC] includes:
+• Interest Expense - Net of Capitalized Interest [SIEN]
+• Preferred Dividends and Similar [XPFS]."
+109,TR.F.EstTaxRate,Estimated Tax Rate [SETAXV] represents the estimated taxes in the country of domicile. Calculated when the value of tax benefits relating to Stock option compensation (Stock-Based Compensation - Tax Benefit - Supplemental [VSCT]) is not provided. Applicable to all Industries.
+110,TR.F.NonCashItemsReconcAdjCF,"Non-cash Items & Reconciliation Adjustments - Cash Flow [SNCR] represents non-cash items reported under the reconciliation section. Applicable to all industries
+Non-cash Items & Reconciliation Adjustments - Cash Flow [SNCR] includes:
+Extraordinary Items after Tax - Cash Flow - to Reconcile [STRA]
+Minority Interest - Cash Flow - to Reconcile [SMIN]
+Discontinued Operations - Gain/(Loss) - Net of Tax - Cash Flow - to Reconcile [SIDO]
+Equity Income/(Loss) in Net Earnings - Cash Flow - to Reconcile [SEIA]
+Accounting Change - Cash Flow - to Reconcile [SACG]
+Income Tax Expense - Cash Flow - to Reconcile [SRTX]
+Financial Income/(Expense) - Cash Flow - to Reconcile [SRFI]
+Other Non-Cash Items & Reconciliation Adjustments - Cash Flow - to Reconcile [SOCF]
+Depreciation, Depletion & Amortization including Impairment - Cash Flow - to Reconcile [SDAI]
+Deferred Income Taxes & Income Tax Credits - Cash Flow - to Reconcile [SBDT]
+Assets Sale - Gain/(Loss) - Cash Flow - to Reconcile [SRGL]
+Financial Assets - Unrealized Gain/(Loss) - Cash Flow - to Reconcile [SUGL]
+Share Based Payments - Cash Flow - to Reconcile [SEBE]
+Cash Flow from Operating Activities before Changes in Working Capital [XONC]
+Cash Generated from Operations [XCGO]
+Loan Loss Provision including Impairment - Increase/(Decrease) - Cash Flow [SPLL] (for Banking, Insurance & Other Financial companies)
+Impairment - Financial Fixed Assets - Operating - Cash Flow - to Reconcile [SIFA] (for Banking, Insurance, Property, Investment Trust, Other Financials companies)
+Investment Property - Unrealized Gain/(Loss) - Cash Flow [SUGP] (for Banking, Insurance & Property companies)
+Investment Losses - Other than Temporary Impairments - Cash Flow [SOTI] (for Insurance companies)"
+111,TR.F.IntrPaidCash,"Interest Paid - Cash [SCIP] represents interest paid in cash during the period. The same root tag is used in the operating, investing and financing sections of the cash flow statement, for indirect and direct operating cash flow and for main sections. Applicable to all industries.
+Interest Paid - Cash [SCIP] includes:
+• Interest Paid - Cash [OCIP]
+• Interest Received/(Paid) - Cash Flow [OCIN] (if negative)
+• Interest on Financial Leases Paid - Cash Flow [OILP]"
+112,TR.F.IntrDivRecdTotCF,"Interest & Dividends - Received - Total - Cash Flow [SIDR] reflects all investment income received in cash, when interest & dividend amounts are not shown separately. Applicable to all industries.
+Interest & Dividends - Received - Total - Cash Flow [SIDR] includes:
+• Interest & Dividends - Received - Cash Flow [OIDR]
+• Dividends Received - Cash Flow [ODSR]
+• Interest Received/(Paid) - Cash Flow [OCIN] (positive values are considered)"
+113,TR.F.CashFlowOpBefChgInWkgCap,"Cash Flow from Operating Activities before Changes in Working Capital [SONC] represents the value of Net Cash Flow from Operating Activities less the value of Working Capital changes. Applicable to all industries.
+Cash Flow from Operating Activities before Changes in Working Capital [SONC] includes:
+Indirect Cash Flow includes:
+•  Profit/(Loss) - Starting Line - Cash Flow [SPLS] 
+•  Non-cash Items & Reconciliation Adjustments - Cash Flow [SNCR]
+•  Income Taxes - Paid/(Reimbursed) - Cash Flow [SCTN]
+•  Interest Paid - Cash [SCIP]
+•  Interest & Dividends - Received - Total - Cash Flow [SIDR]
+•  Distributions Received - Non-Consolidated Real Estate Entities - Cash Flow [SDNR] (Only Property companies)
+
+Direct Cash Flow includes:
+•  Cash Receipts - Business Activities - Cash Flow [SCRC]
+•  Cash Payments - Business Activities - Cash Flow [SCPD]
+•  Income Taxes - Paid/(Reimbursed) - Cash Flow - Direct [SDTN]
+•  Interest Paid - Cash - Direct [SDIP]
+•  Interest & Dividends - Received - Total - Cash Flow - Direct [SIDD]
+•  Cash Receipts/(Payments) - Net - Cash Flow [SOCN]
+•  Accounts Receivables - Decrease/(Increase) - Cash Flow [SACR]
+
+In the absence of above, it includes:
+•  Cash Generated from Operations [XCGO]
+•  Cash Flow from Operating Activities before Changes in Working Capital [XONC]"
+114,TR.F.NetCashFlowOp,"Net Cash Flow from Operating Activities [STLO] represents the total of all operating cash flows after tax and finance servicing outflows. The value is adjusted by all rounding adjustments. Applicable to all industries.
+Net Cash Flow from Operating Activities [STLO] includes:
+Indirect cash flow
+• Cash Flow from Operating Activities before Changes in Working Capital [SONC]
+• Working Capital - Increase/Decrease - Cash Flow [SCWC]
+
+Direct cash flow
+• Cash Receipts - Business Activities - Cash Flow [SCRC]
+• Cash Payments - Business Activities - Cash Flow [SCPD]
+• Income Taxes - Reimbursed/(Paid) - Cash Flow - Direct [SDTN]
+• Interest Paid - Cash (Cash Flow - Direct) [SDIP]
+• Interest &  Dividends - Received - Total - Cash Flow - Direct [SIDD]
+• Cash Receipts/Payments - Net - Cash Flow [SOCN]
+• Cash Receipts/Payments - Associates - Cash Flow [SCAR]
+
+In the absence of the above breakdown in both presentation, it includes Net Cash Flow from Operating Activities [XTLO]."
+115,TR.F.CAPEXNetCF,"Capital Expenditures - Net - Cash Flow [SCAP] represents the net change in cash inflows or outflows from the sale or purchase of tangible and intangible fixed assets. Applicable to all Industries.
+Capital Expenditures - Net - Cash Flow [SCAP] includes:
+• Property, Plant & Equipment - Net - Cash Flow [SPPN]
+• Intangible Assets - Net - Total - Cash Flow [SIAN]
+
+Property companies additionally includes:
+• Investment Property - Net - Total - REIT - Cash Flow [SIPN]
+
+In the absence of the breakdown above it includes:
+• Capital Expenditure & Financial Investments - Cash Flow [XCEX]
+• Property, Plant & Equipment including Intangibles & Software - Purchase/Sale - Total - Cash Flow [XCET]"
+116,TR.F.PPENetCF,"Property, Plant & Equipment - Purchased/(Sold) - Net - Cash Flow [SPPN] represents net cash inflows or outflows from the sale or purchase of tangible fixed assets. Applicable to all Industries.
+Property, Plant & Equipment - Purchased/(Sold) - Net - Cash Flow [SPPN] includes:
+• Property, Plant & Equipment - Purchased - Cash Flow [SCEP]
+• Property, Plant & Equipment Sold - Cash Flow [SSFA] (deducted)
+
+In the absence of the above breakdown it includes Property, Plant & Equipment Purchased/Sold - Net - Cash Flow [IPSP]."
+117,TR.F.PPEPurchCF,"Property, Plant & Equipment - Purchased - Cash Flow [SCEP] encompass all expenditures for factories and equipment that have a useful life of more than one year. These expenditures are not treated as an expense on the income statement when they are incurred. Rather, they are capitalized, meaning that they are expensed over time. Capital Expenditures consist of expenditures that are necessary to maintain the existing plant and equipment in premium condition, and discretionary expenditures for growth. It also includes the capital expenditure on assets intended to be leased out under operating lease or sold under financial/capital lease or hire purchase contracts, reported by financial leasing companies. This typically refers to subsidiaries of motor and machinery companies where the financing division purchases produced cars or equipment and then leases out to clients. Applicable to all industries.
+Property, Plant & Equipment - Purchased - Cash Flow [SCEP] includes:
+• Fixed Assets - Purchased - Cash Flow [ICEX]
+
+Industrial companies additionally includes:
+• Exploration & Development Activities - Cash Flow [IEXD]
+
+Financial companies additionally includes:
+• Lease Equipment - Purchased - Cash Flow [IPLP]
+• Disposal of Assets - Property, Plant & Equipment, Intangibles ex Goodwill, Investment Property & Oth Non-Curr Assets - Cash Flow [ISFG] (If expense)
+• Fixed Assets - Sold - Cash Flow [ISFA] (If expense)
+• Biological Assets - Proceeds from Sales - Derived - Cash Flow [ISBA] (If expense)
+• Lease Equipment - Sold - Cash Flow [ISLP] (If expense)"
+118,TR.F.PPESoldCF,"Property, Plant & Equipment Sold - Cash Flow [SSFA] represents cash inflow from the sale of property, plant and equipment. Applicable to all Industries.
+Property, Plant & Equipment Sold - Cash Flow [SSFA] includes: 
+• Disposal of Assets - Property, Plant & Equipment, Intangibles ex Goodwill, Investment Property & Oth Non-Curr Assets - Cash Flow [ISFG]
+• Biological Assets - Proceeds from Sales - Derived - Cash Flow [ISBA]
+• Disposal of Assets or Groups Classified as Held for Sale - Long-Term - Cash Flow [ISDO]
+• Fixed Assets - Sold - Cash Flow [ISFA]
+Fixed Assets - Purchased - Cash Flow [ICEX] (If income)
+Lease Equipment - Purchased - Cash Flow [IPLP] (If income)
+Exploration & Development Activities - Cash Flow [IEXD] (If income)
+
+Financial companies additionally includes:
+• Lease Equipment - Sold - Cash Flow [SSLP]"
+119,TR.F.IntangNetTotCF,"Intangible Assets - Purchased/(Sold) - Net - Total - Cash Flow [SIAN] represents changes in intangible assets. It includes cash inflow on the sale of intangible assets, cash outflow on acquisition of intangibles as well as costs accumulated and capitalized for software development. When an intangible asset is disposed of, receipts from the disposition are reported and classified as Sale of Intangible Assets. Gains/losses on the sale of the intangible assets are recognized in the income statement, which may be classified as Net Income/Starting Line [ONET].  Research and development costs for future products are normally expensed, but costs for development of software are capitalized at the time of development, and amortized later, when such software is actually implemented for production. Applicable to all Industries.
+Intangible Assets - Purchased/(Sold) - Net - Total - Cash Flow [SIAN] includes:
+• Intangible Assets - Purchased/Acquired - Cash Flow [SIAQ]
+• Intangible Assets - Sold - Cash Flow [SSOI] (deducted)
+• Software Development Costs - Cash Flow [SSDC]
+• Intangible Assets - Net - Cash Flow [SIAU]"
+120,TR.F.IntangPurchAcqCF,"Intangible Assets - Purchased/Acquired - Cash Flow [SIAQ] represents cash outflow on acquisition of intangibles. Applicable to all Industries.
+Intangible Assets - Purchased/Acquired - Cash Flow [SIAQ] includes:
+• Intangible Assets - Purchased/Acquired - Cash Flow [IIAQ]"
+121,TR.F.CAPEXTot,"Capital Expenditures - Total [SCEX] encompass all expenditures for factories, equipment, software development costs and intangible assets that have a useful life of more than one year. These expenditures are not treated as an expense on the income statement when they are incurred. Rather, they are capitalized, meaning that they are expensed over time. Capital Expenditures consist of expenditures that are necessary to maintain the existing plant and equipment in premium condition, and discretionary expenditures for growth. Applicable to all industries.
+Capital Expenditures - Total [SCEX] includes:
+• Fixed Assets - Purchased - Cash Flow [ICEX]
+• Intangible Assets - Purchased/Acquired - Cash Flow [IIAQ]
+• Software Development Costs - Cash Flow [ISDC]
+• Property, Plant & Equipment including Intangibles & Software - Purchase/Sale - Total - Cash Flow [XCET] (if expense)
+• Property, Plant & Equipment Purchased/Sold - Net - Cash Flow [IPSP] (if expense)
+• Intangible Assets - Net - Cash Flow [IIAN] (if expense)
+
+Industrial companies additionally includes:
+• Exploration & Development Activities - Cash Flow [IEXD]
+
+Property companies additionally includes:
+• Capital Expenditures - Investment Property - Improvements & Maintenance - Cash Flow [IIIP]
+• Investment Property - Purchased - Cash Flow [IPIP]
+
+Investment companies additionally includes:
+• Investment Property - Purchased - Cash Flow [IPIP]
+
+Financial companies additionally includes:
+• Lease Equipment - Purchased - Cash Flow [IPLP]
+• Disposal of Assets - Property, Plant & Equipment, Intangibles ex Goodwill, Investment Property & Oth Non-Curr Assets - Cash Flow [ISFG] (If expense)
+• Fixed Assets - Sold - Cash Flow [ISFA] (If expense)
+• Biological Assets - Proceeds from Sales - Derived - Cash Flow [ISBA] (If expense)
+• Lease Equipment - Sold - Cash Flow [ISLP] (If expense)"
+122,TR.F.InvstExclLoansCF,"Investments excluding Loans - Decrease/(Increase) - Cash Flow [SIVN] represents net changes in investments including cash inflows or outflows for sale or purchase of investment properties. Applicable to all Industries.
+Investments excluding Loans - Decrease/(Increase) - Cash Flow [SIVN] includes:
+• Investment Property excluded from Capital Expenditures - Net - Cash Flow [SVPN]
+• Investment Securities - Unclassified - Net - Total - Cash Flow [SIVT]"
+123,TR.F.InvstSecSoldPurchNetTotCF,"Investment Securities - Unclassified - Sold/(Purchased) - Net - Total - Cash Flow [SIVT] represents net changes in investments in securities. Applicable to all Industries.
+Investment Securities - Unclassified - Sold/(Purchased) - Net - Total - Cash Flow [SIVT] includes:
+• Investment Securities - Sold/Matured - Unclassified - Cash Flow [SINS]
+• Investment Securities - Purchased - Unclassified - Cash Flow [SINP] (deducted)
+
+In the absence of the breakdown above it includes 
+• Investment Securities - Unclassified - Net - Cash Flow [IIVN] (deducted)"
+124,TR.F.InvstSecSoldMaturedCF,"Investment Securities - Sold/Matured - Unclassified - Cash Flow [SINS] represents cash inflow on the sale of securities or repayment of securities matured.  Gains/losses on the sale of non-operating investments, which are assumed to be part of Investment Securities - Sold/Matured - Unclassified - Cash Flow [SINS], are reversed using Investment Securities, Gains/Losses [OINV] to avoid double counting of the same cash flow. Applicable to all industries.
+Investment Securities - Sold/Matured - Unclassified - Cash Flow [SINS] includes:
+• Investment Securities - Sold/Matured - Unclassified - Cash Flow [IINS]"
+125,TR.F.InvstSecPurchCF,"Investment Securities - Purchased - Unclassified - Cash Flow [SINP] represents cash outflow on the purchase of investments in securities. Applicable to all Industries
+Investment Securities - Purchased - Unclassified - Cash Flow [SINP] includes:
+• Investment Securities - Purchased - Unclassified - Cash Flow [IINP]"
+126,TR.F.InvstAssocCoJVsCF,"Investments - Associated Companies & Joint Ventures - Sold/(Purchased) - Cash Flow [SEQI] represents investment in securities of associated companies. Associated companies are usually defined as those where the shareholding company may have a significant influence on decision making in the affiliated company. It includes the cash outflows related to the acquisition of non-consolidated real-estate business, reported by property companies. Applicable to all Industries.
+Investments - Associated Companies & Joint Ventures - Sold/(Purchased) - Cash Flow [SEQI] includes:
+• Investments - Associated Companies - Net - Cash Flow [IASC] (deducted)
+
+Property companies additionally includes:
+• Real Estate Joint Ventures - Payments to Acquire - Cash Flow [SARJ] (deducted)"
+127,TR.F.OthInvstCashFlow,"Other Investing Cash Flow - Decrease/(Increase) [SICF] represents the sum of the value of loans origination, foreclosed real estate, equity dividends paid, cash inflow on the sale of securities or repayment of securities matured and other items classified as other investing cash flow. Applicable to all industries.
+Other Investing Cash Flow - Decrease/(Increase) [SICF] includes:
+• Other Investing Cash Flow [IICF]
+• Deferred Charges - Increase - Cash Flow [IDCI]
+• Deferred Charges - Decrease - Cash Flow [IDCD]
+• Deferred Charges - Net - Cash Flow [IDCN]
+
+Industrial companies additionally includes:
+• Dividends Received - Equity Method Investments - Cash Flow [IDRQ]
+• Cash Inflows - Investing Activities - Cash Flow [IIIN]
+• Cash Outflows - Investing Activities - Cash Flow [IOIN]
+• Net Cash Flow from Continuing Operations - Investing Activities [XCIC]
+
+Insurance companies additionally includes:
+• Equity Dividends Paid - Cash Flow [XEDP]
+
+Banks additionally includes:
+• Equity Dividends Paid - Cash Flow [XEDP]
+• Loans - Net - Total - Cash Flow [ILON]
+• Principal Payments - Securities - Cash Flow [ISPP]
+• Loans - Originations - Investing Cash Flow [ILOR]
+• Real Estate - Foreclosed - Cash Flow [IFRE]
+
+Property companies additionally includes:
+• Cash Inflows - Investing Activities - Cash Flow [IIIN]
+• Cash Outflows - Investing Activities - Cash Flow [IOIN]
+• Net Cash Flow from Continuing Operations - Investing Activities [XCIC]
+
+Investment Trust companies additionally includes:
+• Dividends Received - Equity Method Investments - Cash Flow [IDRQ]
+• Cash Inflows - Investing Activities - Cash Flow [IIIN]
+• Cash Outflows - Investing Activities - Cash Flow [IOIN]
+• Equity Dividends Paid - Cash Flow [XEDP]
+• Loans - Net - Total - Cash Flow [ILON]
+
+Other Financial companies additionally includes:
+• Dividends Received - Equity Method Investments - Cash Flow [IDRQ]
+• Equity Dividends Paid - Cash Flow [XEDP]
+• Loans - Net - Total - Cash Flow [ILON]"
+128,TR.F.NetCashFlowInvst,"Net Cash Flow from Investing Activities [STLI] represents the sum of all inflows and outflows from investing transactions. Applicable to all Industries.
+Net Cash Flow from Investing Activities [STLI] includes:
+Industrial, Property, Investment Trust and Other Financial:
+• Capital Expenditures - Net - Cash Flow [SCAP]
+• Acquisition & Disposals of Business - Assets - Net - Cash Flow [SBAS]
+• Investments excluding Loans - Increase/Decrease - Cash Flow [SIVN]
+• Investments - Associated Companies & Joint Ventures - Cash Flow [SEQI]
+• Derivative Financial Instruments - Hedging - Total - Cash Flow [SDRV]
+• Other Investing Cash Flow [SICF]
+
+Insurance companies additionally includes:
+• Investments in Loans - Net - Cash Flow [SLON]
+
+Banks additionally includes:
+• FHLB Stock - Net - Cash Flow [SFLB]
+
+In the absence of the breakdown above it includes Net Cash Flow from Investing Activities [XTLI]"
+129,TR.F.DivPaidCashTotCF,"Dividends Paid - Cash - Total - Cash Flow [SCDP] represents all cash dividends paid to common and preferred stockholders. This amount may be different from the dividends declared in the same period.  Although the distribution of stock to shareholders as stock dividends or bonus shares is a non-cash activity, certain companies may report the stock dividend as a cash distribution and an increase in common stock. In such cases, Refinitiv follows what was reported by the company.  The distribution is generally made quarterly in the form of cash (cash dividend), but as mentioned above, it can also take the form of stock (stock dividend).  Dividends to shareholders may consist of ordinary dividends, special dividends, etc. Applicable to all Industries.
+Dividends Paid - Cash - Total - Cash Flow [SCDP] includes:
+• Dividends - Common - Cash Paid [SPDC]
+• Dividends - Preferred - Cash Paid [SPDP]
+
+In the absence of the breakdown above it includes Dividends Paid - Cash - Total - Cash Flow [FCDP]."
+130,TR.F.DivComCashPaid,"Dividends - Common - Cash Paid [SPDC] represents cash dividends paid to common stockholders. This amount may be different from the dividends declared in the same period.  Although the distribution of stock to shareholders as stock dividends or bonus shares is a non-cash activity, companies may report the stock dividend as cash distribution and an increase in common stock. In such cases as reported data is retained or collected. Applicable to all industries.  
+Dividends - Common - Cash Paid [SPDC] includes:
+• Dividends - Common - Cash Paid [FDPC]
+• Equity Dividends Paid - Cash Flow [XEDP]"
+131,TR.F.StockTotIssuanceRetNetCF,"Stock - Total - Issuance/(Retirement) - Net - Cash Flow [SPSS] represents the sum of cash inflows and outflows from issuance and repurchase or retirement of preferred stock and common stock. It includes cash inflow on behalf of warrants converted and stock options exercised. Applicable to all Industries.
+Stock - Total - Issuance/(Retirement) - Net - Cash Flow [SPSS] is includes:
+• Stock - Issuance/(Retirement) - Net - Excluding Options/Warrants - Cash Flow [SSNU]
+• Options Exercised - Cash Flow [SOPX]
+• Warrants Converted - Cash Flow [SWCV]
+
+*If the account SSNU is not available, the sum of the following items is considered:
+• Stock - Common, Preferred & Other - Net - Cash Flow [STNS]
+• Stock - Common - Net - Cash Flow [SCSN]
+• Stock - Preferred - Net - Cash Flow [SPSN]
+• Stock - Other Equity - Net - Cash Flow [SOEN]"
+132,TR.F.StockIssuanceRetNetExclOptWarrCF,"Stock - Issuance/(Retirement) - Net - Excluding Options/Warrants - Cash Flow [SSNU] represents the sum of cash inflows and outflows from issuance and repurchase or retirement of preferred stock and common stock. Applicable to all Industries.
+Stock - Issuance/(Retirement) - Net - Excluding Options/Warrants - Cash Flow [SSNU] includes:
+• Stock - Common, Preferred & Other - Net - Cash Flow [STNS]
+• Stock - Common - Net - Cash Flow [SCSN]
+• Stock - Preferred - Net - Cash Flow [SPSN]
+• Stock - Other Equity - Net - Cash Flow [SOEN]"
+133,TR.F.StockComNetCF,"Stock - Common - Issuance/(Retirement) - Net - Cash Flow [SCSN] represents the net change in common stock. It includes cash inflow from the issuance of common stock as well as cash outflow on the repurchase of common stock (increase in treasury stock) or the reduction of capital. Applicable to all Industries.
+Stock - Common - Issuance/(Retirement) - Net - Cash Flow [SCSN] includes:
+• Stock - Common - Issued/Sold - Cash Flow [SSIC]
+• Stock - Common - Repurchased/Retired - Cash Flow [SSRC] (deducted)
+
+In the absence of the breakdown above it includes Stock - Common - Issued/Repurchased - Net - Cash Flow [FCSN]"
+134,TR.F.StockComIssuedSoldCF,"Stock - Common - Issued/Sold - Cash Flow [SSIC] represents cash inflow from the issuance of common stock. It also includes cash inflow from the sale of treasury shares. However, issuance of additional shares from a stock split is not included. Applicable to all Industries.
+Stock - Common - Issued/Sold - Cash Flow [SSIC] includes:
+• Stock - Common - Issued/Sold - Cash Flow [FSIC]
+• Treasury Shares - Proceeds from Sales or Issuance - Cash Flow [FPTS]"
+135,TR.F.StockComRepurchRetiredCF,"Stock - Common - Repurchased/Retired - Cash Flow [SSRC] represents cash outflow on the repurchase of common stock or the reduction of capital. Reduction of capital through a reverse split is not classified as Repurchase/Retirement of Common [FRRC] because such transactions do not impact cash flow. If the sale, issuance or repurchase of common stock is not separately delineated, then the total is classified as Stock - Common - Issued/Repurchased - Net - Cash Flow [FCSN]. Applicable to all Industries.
+Stock - Common - Repurchased/Retired - Cash Flow [SSRC] includes:
+• Stock - Common - Repurchased/Retired - Cash Flow [FRRC]"
+136,TR.F.OptExercisedCF,"Options Exercised - Cash Flow [SOPX] represents cash inflow due to stock options exercised, which results in an increase of common stock. Applicable to all Industries.
+Options Exercised - Cash Flow [SOPX] includes:
+• Options Exercised - Cash Flow [FOPX]"
+137,TR.F.DebtLTSTIssuanceRetTotCF,"Debt - Long-Term & Short-Term - Issuance/(Retirement) - Total - Cash Flow [SPRD] represents net changes in cash flow due to the changes in the level of debt of a company. Applicable to all Industries.
+Debt - Long-Term & Short-Term - Issuance/(Retirement) - Total - Cash Flow [SPRD] includes: 
+• Debt - Issued/Reduced - Long-Term & Short-Term - Cash Flow [STDN]
+• Debt - Issued/Reduced - Short-Term - Total - Cash Flow [SSDB]
+• Debt - Issued/Reduced - Long-Term - Cash Flow [SLDN]
+• Hybrid Financial Instruments (Liabilities) - Increase/Decrease - Cash-Flow [SMRN]
+
+Insurance, Bank and Financial companies additionally includes:
+• Collateralized Agreements, Reverse REPOs, & Financing Loans (Liabilities) - Increase/Decrease - Cash Flow [SRFL]"
+138,TR.F.DebtIssuedReducedLTSTCF,"Debt - Issued/(Reduced) - Long-Term & Short-Term - Cash Flow [STDN] represents net changes in financing cash flow due to the changes in the level of interest-bearing debt and/or financial leases of a company. It is a combination of both issuance and retirement of both short-term and long term indebtedness. Applicable to all industries.
+Debt - Issued/(Reduced) - Long-Term & Short-Term - Cash Flow [STDN] includes:
+• Debt - Issued - Long-Term & Short-Term - Cash Flow [STDI]
+• Debt - Reduced - Long-Term & Short-Term - Cash Flow [STDR] (deducted)
+
+In the absence of the above breakdown it includes Debt - Long-Term & Short-Term - Issuance/(Retirement) - Net - Cash Flow [XPRD]."
+139,TR.F.DebtReducedLTSTCF,"Debt - Reduced - Long-Term & Short-Term - Cash Flow [STDR] represents cash outflow on changes in the level of debt of a company. Applicable to all Industries.
+Debt - Reduced - Long-Term & Short-Term - Cash Flow [STDR] includes:
+• Debt - Reduced - Long-Term & Short-Term - Cash Flow [FTDR]"
+140,TR.F.DebtIssuedReducedSTTotCF,"Debt - Issued/(Reduced) - Short-Term - Total - Cash Flow [SSDB] represents the net change of short term debt reported in the cash flow. Applicable to all Industries.
+Debt - Issued/(Reduced) - Short-Term - Total - Cash Flow [SSDB] includes:
+• Debt - Issued - Short-Term - Cash Flow [SSDI]
+• Debt - Reduced - Short-Term - Cash Flow [SSDR] (deducted)
+
+In the absence of the breakdown above it includes:
+• Debt - Issued/Reduced - Short-Term - Cash Flow [FSDN]
+
+If the item above is still not available, the difference between:
+• Overdrafts - Beginning of Period - Cash Flow [OOVP]
+• Overdrafts - End of Period - Cash Flow [OOVE]"
+141,TR.F.DebtIssuedReducedLTCF,"Debt - Issued/Reduced - Long-Term - Cash Flow [SLDN] represents the net change in long term debt. Applicable to all Industries.
+Debt - Issued/Reduced - Long-Term - Cash Flow [SLDN] includes:
+• Debt - Issued - Long-Term - Cash Flow [SLDI]
+• Debt - Reduced - Long-Term - Cash Flow [SLDR] (deducted)
+In the absence of the breakdown above it includes:
+• Debt - Issued/Reduced - Long-Term - Cash Flow [FLDN]
+• Lease liabilities - Issued/(Reduced) - Cash Flow [SLLN]."
+142,TR.F.DebtIssuedLTCF,"Debt - Issued - Long-Term - Cash Flow [SLDI] represents cash inflow on the issuance of long-term debt instruments in a company. Long-term debt may include long-term bank borrowings, corporate bonds, convertible bonds, etc. Applicable to all Industries.
+Debt - Issued - Long-Term - Cash Flow [SLDI] includes:
+• Debt - Issued - Long-Term - Cash Flow [FLDI]
+• Lease liabilities - Issued - Cash flow [SLLI]"
+143,TR.F.OthFinCashFlow,"Other Financing Cash Flow - Increase/(Decrease) [SFCF] represents investing activities other than described under available investing section root tags. It includes financing section adjustments and Cash dividends paid out to minorities. Applicable to all Industries.
+Other Financing Cash Flow - Increase/(Decrease) [SFCF] includes:
+• Other Financing Cash Flow [FFCF]
+• Dividends Paid - Minority Interest - Cash Flow [FDMI] (deducted)
+• Net Cash Flow from Continuing Operations - Financing Activities [XFIC]
+
+Financial companies additionally includes:
+• Financing Cost - Other - Cash Flow [FOFC]"
+144,TR.F.NetCashFlowFin,"Net Cash Flow from Financing Activities [STLF] represents the sum of all inflows and outflows from financing activities of the company. Applicable to all Industries.
+Net Cash Flow from Financing Activities [STLF] includes: 
+Industrial Bank, Property, Investment, Financial
+• Dividends Paid - Cash - Total - Cash Flow [SCDP]
+• Stock - Total - Issuance/(Retirement) - Net - Cash Flow [SPSS]
+• Minority Interests & Joint Ventures - Net - Cash Flow [SMJN]
+• Debt - Long-Term & Short-Term - Issuance/(Retirement) - Total - Cash Flow [SPRD]
+• Other Financing Cash Flow [SFCF]
+
+Insurance companies additionally includes:
+• Policyholder Accounts - Net - Cash Flow [SPHA]
+
+In the absence of the breakdown above it includes Net Cash Flow from Investing Activities [XTLF]"
+145,TR.F.NetCashFlowDiscOpsInvst,"Net Cash Flow from Discontinued Operations - Investing Activities [SDIN] represents net investing cash flow resulting from discontinued operations. It may also include cash proceeds from the disposal of net long term assets pertaining to discontinued operations. The value is collected as reported by the company. Applicable to all Industries.
+Net Cash Flow from Discontinued Operations - Investing Activities [SDIN] includes:
+• Discontinued Operations - Investing - Cash Flow [IDIN]"
+146,TR.F.NetCashFlowDiscOpsFin,"Net Cash Flow from Discontinued Operations - Financing Activities [SDFI] represents net financing cash flows resulting from discontinued operations. The value is collected as reported by the company. Applicable to all Industries.
+Net Cash Flow from Discontinued Operations - Financing Activities [SDFI] includes:
+• Discontinued Operations - Financing - Cash Flow [FDFI]"
+147,TR.F.NetCashFlowDiscOpsTot,"Net Cash Flow from Discontinued Operations - Total [SDOT] represents the total cash flow resulting from all activities of discontinued operations. Applicable to all industries.
+Net Cash Flow Discontinued Operations - Total [SDOT] includes:
+• Net Cash Flow from Discontinued Operations - Operating Activities [SDOP]
+• Net Cash Flow from Discontinued Operations - Investing Activities [SDIN]
+• Net Cash Flow from Discontinued Operations - Financing Activities [SDFI]
+• Net Cash Flow from Discontinued Operations - Other [SDOO]
+
+In the absence of the breakdown above it includes Discontinued Operations - Total/Unclassified - Cash Flow [ODOU]
+
+When the aforementioned information is absent, Discontinued Operations - Total - Cash Flow [XDOU] is displayed."
+148,TR.F.FXEffectsCF,"Foreign Exchange Effects - Cash Flow [SFEE] represents the increase/decrease in cash and cash equivalents due to changes in exchange rates. Applicable to all Industries.
+Foreign Exchange Effects - Cash Flow [SFEE] includes:
+• Foreign Exchange Effects - Cash Flow [XFEE]"
+149,TR.F.NetChgInCashTot,"Net Change in Cash - Total [SNCC] represents net increase/decrease in cash, including Foreign Exchange Effects, as reported by the company. Applicable to all Industries.
+Net Change in Cash - Total [SNCC] includes:
+• Net Cash Flow from Operating Activities [STLO]
+• Net Cash Flow from Investing Activities [STLI]
+• Net Cash Flow from Financing Activities [STLF]
+• Net Cash Flow from Discontinued Operations - Total [SDOT]
+• Non-Classified Cash Flows [SNCL]
+• Foreign Exchange Effects - Cash Flow [SFEE]"
+150,TR.F.NetCashContOps,"Net Cash from Continuing Operations [SCNC] represents total net cash received from continuing operations. This item reflects the change in cash allocable to continuing operations in operating, investing and financing section. Applicable to all Industries.
+Net Cash from Continuing Operations [SCNC] includes:
+• Net Cash Flow from Operating Activities [STLO]
+• Net Cash Flow from Investing Activities [STLI]
+• Net Cash Flow from Financing Activities [STLF]
+
+In the absence of the breakdown above it includes Net Cash from Continuing Operations [XCNC]."
+151,TR.F.NetCashDiscOps,"Net Cash from Discontinued Operations [SDNC] represents total net cash related to discontinued operations of the company. Applicable to all Industries.
+Net Cash from Discontinued Operations [SDNC] includes:
+• Net Cash Flow from Discontinued Operations - Total [SDOT]
+
+In the absence of the breakdown above it includes Net Cash from Discontinued Operations [XDNC]"
+152,TR.F.NetCashBegBal,"Net Cash - Beginning Balance [SNCB] represents the beginning balance of cash and cash equivalents, as defined by a company. This is the ending balance of cash and cash equivalents of the previous fiscal period, with exceptions for certain cases when there are changes in the scope of businesses consolidated. The only situation in which this would vary is the restatement of the cash flow for the previous fiscal period. Applicable to all Industries.
+Net Cash - Beginning Balance [SNCB] includes:
+• Net Cash - Beginning Balance [XNCB]"
+153,TR.F.NetCashEndBal,"Net Cash - Ending Balance [SNCE] represents the sum of Net Change in Cash [SNCC] and Net Cash - Beginning Balance [XNCB]. This value is the ending balance of cash and cash equivalents of the current fiscal period, with exceptions in certain cases where there are changes in the scope of businesses consolidated. Applicable to all Industries.
+Net Cash - Ending Balance [SNCE] includes:
+• Net Cash - Ending Balance [XNCE]"
+154,TR.F.IntrPaidCFSuppl,"Interest Paid - Cash Flow - Supplemental [SIPS] represents all interest paid during the period. The same root tag is used in the operating, investing and financing sections of the cash flow statement, for indirect and direct operating cash flow and for main sections and as a supplementary item. Applicable to all industries.
+Interest Paid - Cash Flow - Supplemental [SIPS] includes:
+• Interest Paid - Cash [OCIP]
+• Interest Received/(Paid) - Cash Flow [OCIN] (if expense)
+• Interest on Financial Leases Paid - Cash Flow [OILP]
+Banks additionally includes:
+• Cash Payments - Interest Paid on Banking Related Liabilities - Cash Flow [OCPI]
+In the absence of above, it includes:Interest Paid - Cash [SCIP].
+And further in the absence of SCIP, it includes:
+• Interest Paid - Cash (Cash Flow - Direct) [SDIP]
+• Cash Payments - Interest Paid on Banking Related Liabilities - Cash Flow [SCPI]"
+155,TR.F.IntrDivRecdCFSuppl,"Interest & Dividends - Received - Cash Flow - Supplemental [SSID] reflects all investment income received in cash reported in the footnotes section. Applicable to all industries.
+Interest & Dividends - Received - Cash Flow - Supplemental [SSID] includes:
+• Interest & Dividends - Received - Cash Flow [OIDR]
+• Dividends Received - Cash Flow [ODSR]
+• Interest Received/(Paid) - Cash Flow [OCIN]
+
+In the absence of the above, it includes:
+• Interest & Dividends - Received - Total - Cash Flow [SIDR] or
+• Interest & Dividends - Received - Total - Cash Flow - Direct [SIDD]"
+156,TR.F.CashFlowOpBefChgInWkgCapAndInt,"CF from Optg Activities before Change in WC & Int Payments [SONI] represents cash flow from operating activities before changes in working capital and interest paid. 
+CF from Optg Activities before Change in WC & Int Payments [SONI] is derived as:
+• Cash Flow from Operating Activities before Changes in Working Capital [SONC]
+• Interest Paid – Cash [SCIP] (deducted)"
+157,TR.F.NonGAAPFreeCashFlow,"Non-GAAP Free Cash Flow - Company Reported [SNGF] represents net cash flow from operating activities reduced by capital expenditures, cash paid for intangible assets and cash distributions to non-controlling interests, net interest payments and preferred dividends paid; and adjusted for any payments and receipts related to certain non-operating items, net of estimated tax benefits (such as income taxes on investment sales and nonrecurring payments related to income tax and litigation contingencies of acquired companies).   Free Cash Flow reflects an additional way of viewing the liquidity of the company which is useful to investors because it represents cash flows that could be used for distribution of dividends, repayment of debt or to fund our strategic initiatives, including acquisitions, if any. Though Free Cash Flow is useful for the investors as the basis for comparing the performance and coverage ratios with other companies but may not be directly comparable to similar measures used by other companies as these are company specific measures.  This is updated as reported by the company. Applicable to all industries.
+Non-GAAP Free Cash Flow - Company Reported [SNGF] includes:
+• Non-GAAP Free Cash Flow [CNGF]"
+158,TR.F.CashDivPaidComStockBuybackNet,"Cash Dividends Paid & Common Stock Buyback - Net [SDCSBN] represents the sum of Cash Dividends Paid - Common [SPDC] and Common Stock Buyback, Net [SCSBN]. Applicable to all Industries.
+Cash Dividends Paid & Common Stock Buyback - Net [SDCSBN] includes:
+• Dividends - Common - Cash Paid [SPDC]
+• Common Stock Buyback - Net [SCSBN]
+
+In absence of the breakdown above it includes:
+• Dividends - Common - Cash Paid [FDPC]
+• Equity Dividends Paid - Cash Flow [XEDP]
+• Dividends Paid - Cash - Total - Cash Flow [FCDP]
+• Stock - Common - Repurchased/Retired - Cash Flow [FRRC]
+• Stock - Common - Issued/Sold - Cash Flow [FSIC] (if negative)
+• Treasury Shares - Proceeds from Sales or Issuance - Cash Flow [FPTS] (if negative)
+• Stock - Common - Issued/Repurchased - Net - Cash Flow [FCSN]"
+159,TR.F.ComStockBuybackNet,"Common Stock Buyback - Net [SCSBN] represents the repurchasing of shares of stock by the company that issued them. A buyback occurs when the issuing company pays shareholders the market value per share and re-absorbs that portion of its ownership that was previously distributed among public and private investors. Applicable to all industries.
+Common Stock Buyback - Net [SCSBN] includes:
+• Stock - Common - Repurchased/Retired - Cash Flow [SSRC]
+• Stock - Common - Issued/Sold - Cash Flow [SSIC] (deducted)
+In the absence of above it includes:
+• Stock - Common - Issued/Repurchased - Net - Cash Flow [FCSN]"
+160,TR.F.FreeCashFlowToEq,"Free Cash Flow to Equity [SFCFE] represents the measure of how much cash is available to the equity shareholders of a company after all expenses, reinvestment, and debt are paid. It is a measure of equity capital usage. Applicable to all industries.
+Free Cash Flow to Equity [SFCFE] includes:
+• Net Cash Flow from Operating Activities [STLO]
+• Capital Expenditures - Net - Cash Flow [SCAP] (deducted)
+• Debt - Long-Term & Short-Term - Issuance/(Retirement) - Total - Cash Flow [SPRD]"
+161,TR.F.FOCF,"Free Cash Flow Net of Dividends [SFCFO] represents the total value of activities reported in the operating section of cash flow (Net Cash Flow from Operating Activities [STLO]) less the value of all expenditures for factories, equipment, software development costs and intangible assets that have a useful life of more than one year (Capital Expenditures - Total [SCEX]) and the value of all cash dividends paid to common and preferred stockholders (Dividends Paid - Cash - Total - Cash Flow [SCDP]). Applicable to all Industries."
+162,TR.F.LeveredFOCF,"Free Cash Flow [SFCFL] represents the difference between the total of all operating cash flows after tax and finance servicing outflows (Net Cash Flow from Operating Activities [STLO]) and all expenditures for factories, equipment, software development costs and intangible assets that have a useful life of more than one year (Capital Expenditures - Total [SCEX]). Applicable to all Industries."
+163,TR.F.CashSTInvst,"Cash & Short Term Investments [SCSI] refers to cash and short term investments  which represent a combination of items. It is a combination of Total Cash & Cash equivalent or Cash & short-term investment-Total reported on the face of the balance sheet. Applicable to Industrial and Property companies.
+Cash & Short Term Investments [SCSI] includes:
+• Cash & Cash Equivalents [SCAE]
+• Short-Term Investments - Total [SSTI]
+
+In the absence of the breakdown above it includes:
+• Cash & Short Term Investments - Total [XCNS]
+• Financial Assets - Short-Term [AFAC]"
+164,TR.F.CashCashEquiv,"Cash & Cash Equivalents [SCAE] represents short-term, highly liquid investments that are both readily convertible to known amounts of cash and so close to their maturity that they present insignificant risk of changes in interest rates. Only investments with original maturities of three months or less qualify under these definitions. Applicable to Industrial, Insurance, Property, Investment and Financial companies.
+Cash & Cash Equivalents [SCAE] includes:
+• Cash & Cash Equivalents [ACAE]
+• Cash in Hand & with Banks [ACSH]
+• Cash - Negative [ANCH]
+• Cash & Cash Equivalents - Negative [ANCE]
+
+Insurance additionally includes:
+• Money at Call [ACMY]
+
+Property additionally includes:
+• Cash & Short Term Investments - Total [XCNS]
+
+Investment additionally includes:
+• Time Deposits [ABTD]
+• Money at Call [ACMY]
+
+Financial additionally includes:
+• Time Deposits [ABTD]
+• Money at Call [ACMY]
+• Cash & Short Term Investments - Total [XCNS]"
+165,TR.F.STInvstTot,"Short-Term Investments - Total [SSTI] represents investments in debt and equity securities & derivaties with maturity of one year or less. Applicable to Industrial & Property.
+Short-Term Investments - Total [SSTI] includes:
+• Derivative Financial Instruments - Speculative/Trading - Short-Term [ATDV]
+• Short-Term Investments [ASTI]
+• Derivative Financial Instruments - Speculative/Trading in Receivables - Short-Term [ATDR]
+• Islamic Investments & Deposits [ISID]
+• Islamic Investments & Deposits - Short-Term [ISIDS]
+• Financial Assets - Short-Term [SFAC]"
+166,TR.F.LoansRcvblNetST,"Loans & Receivables - Net - Short-Term [SCLR] represents a combination of total loans, receivables and other receivables after Provision for Doubtful Accounts. Applicable to Industrial and Property companies.
+Loans & Receivables - Net - Short-Term [SCLR] includes:
+• Receivables Over One Year included within Short-Term Receivables [SRNC]
+• Income Tax - Receivables - Short-Term [STXS]
+• Receivables - Other - Total [SROT]
+• Loans - Short-Term [SLNS]
+• Trade Accounts & Trade Notes Receivable - Net [SANR]
+• Provision - Doubtful Accounts [SPDT] (deducted)
+
+Property companies additionally includes:
+• Finance Lease Receivables - Short-Term [SLFR]
+
+In the absence of above, it includes: 
+• Accounts Receivable & Others - Net - Short-Term [XOLR]."
+167,TR.F.TradeAcctTradeNotesRcvblNet,"Trade Accounts & Trade Notes Receivable - Net [SANR] represents the total value of claims held against customers for goods sold or services rendered after provision for doubtful accounts. It excludes notes and loans receivables and any other receivables. Applicable to Industrial, Property, Investment Trust and Other Financial companies.
+Trade Accounts & Trade Notes Receivable - Net [SANR] includes:
+• Trade Accounts & Trade Notes Receivable - Gross [SARG] 
+• Provision - Trade Accounts & Trade Notes Receivable [SPDA] (deducted)
+
+In the absence of above, it includes:
+• Accounts & Notes Receivable - Trade - Net [AACR]
+
+Industrial companies additionally includes:
+• Unbilled Utility Revenue - Short-Term [SUUR]
+
+Property, Investment and Financial companies additionally includes:
+• Finance Lease Receivables - Net [ACFR]"
+168,TR.F.IncTaxRcvblST,"Income Tax - Receivables - Short-Term [STXS] represents tax recoverable other than Advance Corporation Tax. Applicable to Industrial, Property, Investment Trust and Other Financial companies.
+Income Tax - Receivables - Short-Term [STXS] includes:
+• Income Tax - Receivables - Short-Term [AOTX]
+• Income Tax - Receivables - Negative - Short-Term [ANTX]"
+169,TR.F.InvntTot,"Inventories - Total [SINY] represents total of all stocks and inventories excluding any classified as fixed assets. Applicable to Industrial, Property, Investment Trust and Other Financial companies. 
+Inventories - Total [SINY] includes:  
+Industrial and Property (differentiated)
+• Inventories - Raw Materials [SIRM]
+• Inventories - Work in Progress [SIWP]
+• Inventories - Finished Goods [SIFG] 
+• Inventories - Other - Total [SIOT]
+In the absence of the breakdown above, it includes Inventories - Total [XITL].
+
+Industrial and Property (non-differentiated):
+• Inventories - Total [XITL]
+• Inventories - Long-Term [ANIN]
+
+Investment Trust:
+• Inventories - Raw Materials - Net [AIRM]
+• Inventories - Work in Progress [AIWP]
+• Inventories - Finished Goods [AIFG]
+• Inventories - Other [AIOT]
+• Inventories - Real Estate [AIRT]
+• Inventories - Total [XITL]
+
+Other Financial:
+• Inventories - Real Estate [AIRT]
+• Inventories - Total [XITL]"
+170,TR.F.TotCurrAssets,"Total Current Assets [STCA] represents the value of all current assets. It's the sum of prepaid expenses, receivables and loans after deduction of provisions for doubtful accounts, cash and short term investments, the value of assets from discontinued operations, fair value of short-term financial instruments or contracts whose value is derived from some other financial measure, total of all stocks and inventories and other current assets. Applicable to Industrial and Property companies.
+Total Current Assets [STCA] includes:
+• Cash & Short Term Investments [SCSI]
+• Derivative Financial Instruments - Hedging - Short-Term [SDFC]
+• Loans & Receivables - Net - Short-Term [SCLR]
+• Inventories - Total [SINY]
+• Prepaid Expenses - Short-Term [SPPD]
+• Assets Held for Sale/Discontinued Operations - Short-Term [SDCA]
+• Other Current Assets - Total [SOCA]"
+171,TR.F.InvstLT,"Investments - Long-Term [SILT] represents the total value of long-term investments held for sale or to maturity including investment property and other non-current financial assets. Applicable to Industrial and Property companies. 
+Investments - Long-Term [SILT] includes: 
+Industrial: 
+• Investment Property - Net [SNVP]
+• Investments - Available for Sale/Held to Maturity - Long-Term [SLTI]
+• Financial Assets - Long-Term [SFAN]
+
+Property companies additionally includes:
+• Investment Property - Net [SNVP]
+• Investments - Available for Sale/Held to Maturity - Long-Term [SLTI]
+
+In the absence of above, it includes:
+• Investments - Long-Term - Total [XLIU]."
+172,TR.F.InvstAFSHTMLT,"Investments - Available for Sale/Held to Maturity - Long-Term [SLTI] represents total marketable securities, term, equity & other investments. Applicable to Differentiated Industrial & Property.
+Investments - Available for Sale/Held to Maturity - Long-Term [SLTI] includes:
+•  Marketable Securities - Long-Term [SMSL]
+•  Investments - Available for Sale/Held to Maturity - Long-Term [ALTI]
+•  Derivative Assets - Speculative/Trading - Long-Term [ALDS]
+•  Islamic Investments & Deposits - Long-Term [ISIDL]
+•  Investment Securities - Designated/Measured at Fair Value through Other Comprehensive Income (FVOCI) [ACFV]
+•  Investments - Long-Term - Total [XLIU] (For Industrial)
+•  Equity in Affiliates in Unconsolidated Subsidiaries [AEQA] (For Property)
+•  Equity in Non-Affiliated & Non-Controlled Companies[AEQN] (For Property)
+•  Investments - Other [AOIT] (For Property)
+•  Investment Securities - Total [XTIS]"
+173,TR.F.InvstInAssocJVsUnconsolSubs,"Investments in Associates, Joint Ventures and Unconsolidated Subsidiaries [SEQT] - Investment in associated, affiliated and other companies accounted for by the equity method.
+Associated companies are usually defined as those where the shareholding company may have a significant influence on decision making in the affiliated company. It usually requires approximately 20% of shareholding to have a significant influence, although the percentage figure is not an absolute criterion. Applicable to all Industries.
+Investments in Associates, Joint Ventures and Unconsolidated Subsidiaries [SEQT] includes:
+• Investments in Associates, Joint Ventures and Unconsolidated Subsidiaries [AEQI]"
+174,TR.F.RcvblLoansLT,"Receivables & Loans - Long-Term [SLLR] represents the total value of any net and gross receivables other than those generated by sales of products, goods and services, loans and notes receivable, or other receivables represented by specific codes, after the provision for doubtful other receivables.  This item is applicable for differentiated balance sheet. Applicable to all Industries.
+Receivables & Loans - Long-Term [SLLR] includes:
+• Accounts & Notes Receivable - Trade - Net - Long-Term [SLAN]
+• Loans - Long-Term [SLNG]
+• Finance Lease Receivables - Long-Term [SFLT]
+• Receivables - Other - Net - Long-Term [SLRO]
+• Provision - Doubtful Accounts - Long-Term [SLPT] (deducted)"
+175,TR.F.AcctNotesRcvblTradeNetLT,"Accounts & Notes Receivable - Trade - Net - Long-Term [SLAN] represents non-current receivables from the sales of products, goods, trading assets (such as inventories) or from services provided, before provisions for doubtful receivables. Applicable to Industrial and Property companies.
+Accounts & Notes Receivables - Trade - Net - Long-Term [SLAN] includes:
+• Accounts & Notes Receivable - Trade - Net - Long-Term [ALRN]
+• Accounts Receivable & Others - Net - Total [ATAC]
+
+In the absence of the breakdown above it includes:
+• Accounts & Notes Receivable - Trade - Gross - Long-Term [SLRG]
+• Provision - Accounts & Notes Receivable - Trade - Long-Term [ATPD] (deducted)"
+176,TR.F.PPENetTot,"Property, Plant & Equipment - Net - Total [SPPE] represents the net book value of all property,plant and equipment. Applicable to all Industries.
+Property, Plant & Equipment - Net - Total [SPPE] is the difference between:
+• Property, Plant & Equipment - Gross - Total [SPPC] 
+• Property, Plant & Equipment - Accumulated Depreciation & Impairment - Total [SDPP]
+
+If the breakdown above is not available, it includes:
+• Property, Plant & Equipment - Net - Total [XPPE]
+
+Insurance, Banks, Property, Investment Trust and Other Financial companies additionally includes:
+• Construction in Progress - Gross [ACPC]"
+177,TR.F.AssetsHeldForSaleDiscOpsLT,"Assets Held for Sale/Discontinued Operations - Long-Term [SDOA] represents the assets of discontinued operations to be disposed of through sale and other non current assets classified as held for sale, when other non current assets are not reported separately.  When a company does not delineate between current and non-current assets (non differentiated B/S), all assets under discontinued operations are classified as Discontinued Operations – LT Asset. Applicable to Industrial and Property companies.
+Assets Held for Sale/Discontinued Operations - Long-Term [SDOA] includes:
+• Assets Held for Sale/Discontinued Operations - Long-Term [ADOA]"
+178,TR.F.OthNonCurrAssetsTot,"Other Non-Current Assets - Total [SOAS] represents other non-current assets. Applicable to Industrial and Property companies.
+Other Non-Current Assets - Total [SOAS] includes:
+• Restricted Accounts - Long-Term [SRCL]
+• Deferred Tax - Asset - Long-Term [SDTA]
+• Deferred Charges - Long-Term [SNDC]
+• Prepaid Expenses - Long-Term [SNPY]
+• Inventories - Long-Term [SNIN]
+• Pension Assets - Long-Term [SPBO]
+• Other Non-Current Assets [SNCA]
+
+Industrial companies additionally includes:
+• Regulatory Assets - Long-Term [SRAN]
+
+In the absence of the breakdown above, it includes Other Non-Current Assets - Total [XOLT]."
+179,TR.F.DefTaxAssetLT,"Deferred Tax - Asset - Long-Term [SDTA] represents the total value of net long-term deferred taxes disclosed on the asset side, i.e. long-term deferred tax credits (assets) offset with long-term deferred tax debits (liabilities). It includes also the short term portion of Deferred Income Tax included in long term assets. This item is applicable to differentiated Industrial, Property and Financial companies.
+Deferred Tax - Asset - Long-Term [SDTA] includes:
+• Deferred Tax - Asset - Long-Term [ADTA]
+• Deferred Tax - Asset - Net [ADTN]
+• Deferred Tax - Debit - Asset [ADTD]
+• Deferred Tax - Credit - Asset [ADTS]
+• Deferred Tax - Asset - Short-Term (in Long-Term) [ABDC]"
+180,TR.F.PensAssetsLT,"Pension Assets - Long-Term [SPBO] represents the assets in a pension plan that serves as an investment for participating employees (may include stocks, bonds, property or other investments, etc.) and overfunded pension benefits. When a company uses the Defined Benefit Method, regularly funded pension contribution may generate gains such that the fair market value of plan assets exceeds the accumulated benefit obligation. Applicable to all Industries.
+Pension Assets - Long-Term [SPBO] includes:
+• Pension Benefits - Overfunded - Long-Term & Short-Term [APBT]
+• Pension Assets - Long-Term [APBO]"
+181,TR.F.IntangTotNet,"Intangible Assets - Total - Net [SINN] represents the reported net total intangible assets including goodwill. Applicable to all Industries.
+Intangible Assets - Total - Net [SINN] includes:
+• Intangible Assets - excluding Goodwill - Net - Total [STIN]
+• Goodwill/Cost in Excess of Assets Purchased - Net [SGWN]
+
+In the absence of above, it includes:
+• Intangible Assets - Gross - Total [SING]
+• Intangible Assets - Accumulated Amortization & Impairment - Total [SINA] (Deducted)
+
+In the absence of above, it includes:
+• Intangible Assets - Net - Total [XINN]"
+182,TR.F.GoodwCostInExcessOfAssetsPurchNet,"Goodwill/Cost in Excess of Assets Purchased - Net [SGWN] represents the net book value of goodwill after deduction of accumulated amortization. The net value is the difference between the cost of an acquired entity and the aggregate value of its identifiable assets. Applicable to all Industries.
+Goodwill/Cost in Excess of Assets Purchased - Net [SGWN] includes:  
+• Goodwill - Net [SNGW] 
+• Goodwill - Negative - Net [SNGN] (deducted)"
+183,TR.F.IntangExclGoodwNetTot,"Intangible Assets - excluding Goodwill - Net - Total [STIN] represents the reported net total intangible assets excluding goodwill. This is used when goodwill amount is separately reported. Applicable to all Industries.
+Intangible Assets - excluding Goodwill - Net - Total [STIN] is the difference between:
+• Intangible Assets - excluding Goodwill - Gross [STIG]
+• Intangible Assets - excluding Goodwill - Accumulated Amortization & Impairment - Total [STIA]
+
+In the absence of the breakdown above, it includes Intangible Assets - Net - Total [XINN]."
+184,TR.F.TotNonCurrAssets,"Total Non-Current Assets [STLA] refers to the total long term assets reported on the face of Balance Sheet. Applicable to Industrial and Property companies.
+Total Non-Current Assets [STLA] includes:
+• Investments - Long-Term [SILT]
+• Investments in Associates, Joint Ventures and Unconsolidated Subsidiaries [SEQT]
+• Receivables & Loans - Long-Term [SLLR]
+• Derivative Financial Instruments - Hedging - Long-Term [SNDH]
+• Property, Plant & Equipment - Net - Total [SPPE]
+• Assets Held for Sale/Discontinued Operations - Long-Term [SDOA]
+• Other Non-Current Assets - Total [SOAS]
+• Intangible Assets - Total - Net [SINN]
+
+Property companies additionally includes:
+• Right of Use Tangible Assets - Operating Lease - Net [SRON]
+
+In the absence of the above breakdown it includes Total Non-Current Assets [XNCA]."
+185,TR.F.TotAssets,"Total Assets [ATOT] represents the total assets reported by a company. In case the Total assets is not reported, it will be the sum of the following items:
+• Total Current Assets [XTCA]
+• Total Non-Current Assets [XNCA]
+Applicable to all industries."
+186,TR.F.TradeAcctPbleAccrualsST,"Trade Accounts Payable & Accruals - Short-Term [SAPA] represents the value amounts payable/owed to creditors or suppliers for materials and merchandise acquired or for services provided within the normal operations of the business and accrued expenses. Applicable to Industrial and Property companies.
+Trade Accounts Payable & Accruals - Short-Term [SAPA] includes:
+• Trade Accounts & Trade Notes Payable - Short-Term [SANC]
+• Accrued Expenses - Short-Term [SAEC]"
+187,TR.F.TradeAcctTradeNotesPbleST,"Trade Accounts & Trade Notes Payable - Short-Term [SANC] represents amounts payable/owed to creditors or suppliers for materials and merchandise acquired or for services provided within the normal operations of the business. Applicable to Industrial and Property companies.  
+Trade Accounts & Trade Notes Payable - Short-Term [SANC] includes:
+• Accounts Payable and Accrued Expenses [LPBA]
+• Accounts Payable [LAPB]"
+188,TR.F.STDebtCurrPortOfLTDebt,"Short-Term Debt & Current Portion of Long-Term Debt [SSTD] represents all borrowings due within one year. Applicable to all Industries.
+Short-Term Debt & Current Portion of Long-Term Debt [SSTD] includes:
+• Short-Term Debt & Notes Payable[SSOD]
+• Current Portion of Long-Term Debt including Capitalized Leases[SCLD]
+• Hybrid Financial Instrument - Liability - Current Portion[SCHF]
+
+Banks additionally includes:
+• FHLB Advances - Current Portion[SFLC]
+
+In the absence of the breakdown above, it includes:
+• Short-Term Debt & Current Portion of Long-Term Debt [XSTD]
+• Short-Term Debt & Current Portion of Long-Term Debt - Financial Sector [XSTDF]
+• Short-Term Debt & Current Portion of Long-Term Debt - Negative [XNSD]"
+189,TR.F.IncTaxPbleST,"Income Taxes - Payable - Short-Term [STXZ] represents to income taxes payable to the government calculated on the basis of the company’s profits. Applicable to Industrial and Property companies.
+Income Taxes - Payable - Short-Term [STXZ] includes: 
+• Income Taxes - Payable - Short-Term [LTXP]"
+190,TR.F.OthCurrLiabTot,"Other Current Liabilities - Total [SOCL] represents other short-term liabilities reported on the face. It is a combination of current liabilities other than Debt and Payables.
+Applicable to Industrial and Property companies.
+Other Current Liabilities - Total [SOCL] includes:
+• Deferred Income - Short-Term [SCAV]
+• Security Deposits [SSED]
+• Billings in Excess of Cost - Short-Term [SBEX]
+• Customer Advances - Short-Term [SCAC]
+• Deferred Tax - Liability - Short-Term [SDTC]
+• Provisions - Short-Term [SCPV]
+• Other Current Liabilities [SCLO]
+
+Industrial companies additionally includes:
+• Regulatory Liability - Short-Term [SRLS]"
+191,TR.F.ProvST,"Provisions - Short-Term [SCPV] refers to all provisions reported under the current liability section except provision for income taxes, deferred taxes. Applicable to Industrial and Property companies.
+Provisions - Short-Term [SCPV] includes:
+• Provisions - Short-Term [LCPV]"
+192,TR.F.OthCurrLiab,"Other Current Liabilities [SCLO] represents current liabilities other than debt, trade payables and provisions. It includes any payables other than income tax payable, dividend payable, interest payable, current liabilities from financial instruments and accrued interest on any interest-bearing and debt liabilities. Applicable to Industrial and Property companies.
+Other Current Liabilities [SCLO] includes:
+• Other Payables [LOPB]
+• Financial Liabilities - Short-Term [LFCR]
+• Derivative Liabilities - Speculative/Trading - Short-Term [LDSC]
+• Other Current Liabilities [LOCL]
+• Interest Payable - Short-Term Debt [LSIP]
+• Trading Account Liabilities [LTRL]
+
+Industrial companies additionally includes:
+• Segregated Liabilities [LSGS]"
+193,TR.F.TotCurrLiab,"Total Current Liabilities [SCLT] represents the sum of a company's short term/current liabilities (due within one year). This item is applicable to differentiated balance sheet. Applicable to Industrial and Property companies.
+Total Current Liabilities  [SCLT] includes:
+Industrial and Property companies (Differentiated) includes:
+• Trade Accounts Payable & Accruals - Short-Term [SAPA]
+• Short-Term Debt & Current Portion of Long-Term Debt [SSTD]
+• Derivative Liabilities - Hedging - Short-Term [SCDV]
+• Liabilities Held for Sale/Discontinued Operations - Short-Term [SDCL]
+• Income Taxes - Payable - Short-Term [STXZ]
+• Dividends/Distributions Payable [SDPB]
+• Operating Lease Liabilities - Current Portion/Short-Term [SSOL]
+• Other Current Liabilities - Total [SOCL]
+
+Property companies additionally includes:
+• Intangible Liability [SITA]
+
+In the absence of above, it includes: 
+• Total Current Liabilities [XTCL]
+
+Other Financial and Investment Trust companies include:
+• Total Current Liabilities [XTCL]
+
+Non-Differentiated
+Industrial and Property companies include:
+• Trade Accounts Payable & Accruals - Short-Term [SAPA] 
+• Short-Term Debt & Current Portion of Long-Term Debt [SSTD]
+• Derivative Liabilities - Hedging - Short-Term [SCDV]
+• Liabilities Held for Sale/Discontinued Operations - Short-Term [SDCL]
+• Income Taxes - Payable - Short-Term [LTXP]
+• Dividends/Distributions Payable [LDPB]
+• Operating Lease Liabilities - Current Portion/Short-Term [SSOL]
+• Intangible Liability [SITA]
+• Regulatory Liability - Short-Term [LCRL]
+• Provisions - Short-Term [SCPV]
+• Deferred Tax - Liability - Short-Term [SDTC]
+• Customer Advances - Short-Term [SCAC]
+• Security Deposits [LSED]
+• Billings in Excess of Cost - Short-Term [LBEX]
+• Deferred Income - Short-Term [SCAV]
+• Other Current Liabilities [LOCL]
+• Other Payables [LOPB]
+• Interest Payable - Short-Term Debt [LSIP]
+• Derivative Liabilities - Speculative/Trading - Short-Term [LDSC]
+• Trading Account Liabilities [LTRL]
+• Segregated Liabilities [LSGS]"
+194,TR.F.AcctPbleInclAccrExpnLT,"Accounts Payable including Accrued Expenses - Long-Term [SLAP] represents non-current portion of amounts payable/owed to creditors or suppliers for materials and merchandise acquired or for services provided within the normal operations of the business and expenses accrued that will be paid in more than one year or after the end of the company’s inventory operating cycle. This applies to differentiated balance sheet. Applicable to Industrial and Property companies. 
+Accounts Payable including Accrued Expenses - Long-Term [SLAP] includes:
+• Trade Accounts Payable - Long-Term [SLTL]
+• Accrued Expenses - Long-Term [SLAE]"
+195,TR.F.TradeAcctPbleLT,"Trade Accounts Payable - Long-Term [SLTL] - Non-current portion of amounts payable/owed to creditors or suppliers for materials and merchandise acquired or for services provided within the normal operations of the business. This applies to differentiated balance sheet. Applicable to Industrial and Property companies.
+Trade Accounts Payable - Long-Term [SLTL] includes:
+• Trade Payables - Long-Term [LLTP]"
+196,TR.F.DebtLTTot,"Debt - Long-Term - Total [SLTD] represents total non-current debt or interest bearing financial obligations. It includes both convertible and non-convertible debt. It includes non-current lease obligations, non-current hybrid financial documents and long term FHLB Advances. Applicable to all industries.
+Debt - Long-Term - Total [SLTD] includes:
+• Long-Term Debt excluding Capitalized Leases [SDXL]
+• Hybrid Financial Instrument - Liability - Long-Term [SLHF]
+• Capitalized Lease Obligations - Long-Term [SLCL]
+
+Banks additionally includes:
+• FHLB Advances - Long-Term [SFHT]
+• Junior Subordinated Debentures & Notes Payable - Trust Account [SPTA]"
+197,TR.F.LTDebtExclCapLease,"Long-Term Debt excluding Capitalized Leases [SDXL] represents total non-current debt or interest bearing financial obligations. It includes both convertible and non-convertible debt. Applicable to all Industries.
+Long-Term Debt excluding Capitalized Leases [SDXL] includes: 
+• Debt - Non-Convertible - Long-Term [LNCD]
+• Convertible Debt - Long-Term [SCDL]"
+198,TR.F.DebtNonConvertLT,"Debt - Non-Convertible - Long-Term [LNCD] represents debt or interest-bearing financial obligations where the current portion and long term portion of Debt cannot be separated. This debt won’t be converted into the issuing company’s stock. Applicable to all industries.
+Debt - Non-Convertible - Long-Term [LNCD] includes:
+• Long-Term Debt excluding Capitalized Leases [LLTD]
+• Long-Term Debt excluding Capitalized Leases - Financial Sector [LLTDF]
+• Debt excluding Capitalized Leases - Long-Term & Short-Term [LDXT]
+• Debt excluding Capitalized Leases - Long-Term & Short-Term - Financial Sector [LDXTF]
+• Islamic Debt - Long-Term & Short-Term [ISDB]
+• Murabaha Payables [IMBD]
+• Istisna Payables [IISD]
+• Musharaka Financing - Debt [IMSD]
+• Mudaraba Financing - Debt [IMDD]
+• Sukuk Financing [ISKD]
+• Wakala Payables- Long-Term & Short-Term [IWKD]
+• Other Islamic Payables [IODT]
+• Islamic Debt - Long-Term [ISDBL]
+• Murabaha Payables - Long-Term [IMBDL]
+• Istisna Payables - Long-Term [IISDL]
+• Musharaka Financing - Debt - Long-Term [IMSDL]
+• Mudaraba Financing - Debt - Long-Term [IMDDL]
+• Sukuk Financing - Long-Term [ISKDL]
+• Wakala Payables- Long-Term [IWKDL]
+• Other Islamic Payables - Long-Term [IODTL]
+• Long-Term Debt excluding Capitalized Leases - Negative [LNLD]
+
+In the absence of above, it includes:
+• Debt - Long-Term - Maturities - Total [VTLD].
+
+If Long-term debt accounts are not available, it includes Financial Liabilities - Long-Term [LFNC]."
+199,TR.F.LiabHeldForSaleDiscOpsLT,"Liabilities Held for Sale/Discontinued Operations - Long-Term [SDOL] Represents the liabilities which are classified as held for sale from discontinued operations and other non current liabilities classified as held for sale. This field is long-term. Applicable to Industrial and Property companies.
+Liabilities Held for Sale/Discontinued Operations - Long-Term [SDOL] includes:
+• Liabilities Held for Sale/Discontinued Operations - Long-Term [LDOL]"
+200,TR.F.DefTaxInvstTaxCreditsLT,"Deferred Tax & Investment Tax Credits - Long-Term [SDTX] represents the total value of non-current deferred taxes disclosed in the liability section. Applicable to all industries.
+Deferred Tax & Investment Tax Credits - Long-Term [SDTX] includes:
+• Deferred Tax - Liability - in Untaxed Reserves [SDUR]
+• Deferred Tax - Liability - Long-Term [SDTL]"
+201,TR.F.DefTaxLiabLT,"Deferred Tax - Liability - Long-Term [SDTL] represents refers to the total value of long-term deferred taxes disclosed in the liability section. It includes deferred tax debits (assets) and deferred tax credits (liabilities) reported in a liability section. Applicable to all Industries.
+Deferred Tax - Liability - Long-Term [SDTL] includes:
+• Deferred Tax - Liability - Long-Term [LBDT]
+• Deferred Tax - Debit - Liability [LDTF]
+• Deferred Tax - Credit - Liability [LDTE]
+• Deferred Tax - Liability - Net [LDTN]"
+202,TR.F.OthNonCurrLiabTot,"Other Non-Current Liabilities - Total [SLLT] represents other non-current liabilities other than debt, trade payables and provisions. This item is applicable to differentiated balance sheet. Applicable to Industrial and Property companies.
+Other Non-Current Liabilities - Total [SLLT] includes: 
+• Provisions - Long-Term [SNCP]
+• Customer Advances - Long-Term [SCAL]
+• Deferred Revenue - Long-Term [SDIL]
+• Other Non-Current Liabilities [SOLL]
+
+Industrial companies additionally includes:
+• Regulatory Liabilities - Long-Term [SRLN]"
+203,TR.F.ProvLT,"Provisions - Long-Term [SNCP] represents the sum of all non-current provisions. It includes provisions for non-current legal costs and litigation claims, for environmental obligations and for future pension liabilities. Applicable to Industrial and Property companies.
+Provisions - Long-Term [SNCP] includes:
+• Provisions - Other - Long-Term [SLPO]
+• Post Employment Benefits - Pension & Other - Long-Term [SPEN]
+• Provisions - Litigation - Long-Term [SLGR]
+• Provisions - Restructuring - Long-Term [SRSR]
+
+Industrial companies additionally includes:
+• Asset Retirement Obligation - Long-Term [SARE]
+• Provisions - Environmental Obligations - Long-Term [SPVE]
+
+In the absence of above, it includes:
+• Provisions - Long-Term - Total [LNCU]."
+204,TR.F.PostEmpBenefPensOthLT,"Post Employment Benefits - Pension & Other - Long-Term [SPEN] refers to provisions for future pension liabilities. Includes retirement benefits, pension reserves, healthcare plans and post-employment obligations. Applicable to all Industries.
+Post Employment Benefits - Pension & Other - Long-Term [SPEN] includes: 
+• Post Employment Benefits - Pension & Other - Long-Term [LPEN]"
+205,TR.F.ProvOthLT,"Provisions - Other - Long-Term [SLPO] represents other long term provisions. Applicable to Industrial and Property companies.
+Provisions - Other - Long-Term [SLPO] includes:
+• Provisions - Other than Pension & Post-Retirement - Long-Term [LRSV]
+• Provisions - Long-Term - Total [LNCU]"
+206,TR.F.TotNonCurrLiab,"Total Non-Current Liabilities [SLDL] represents the sum of the company’s non current liabilities. Applicable to Industrial and Property companies.
+Total Non-Current Liabilities [SLDL] includes:
+• Accounts Payable including Accrued Expenses - Long-Term [SLAP]
+• Debt - Long-Term - Total [SLTD]
+• Derivative Liabilities - Hedging - Long-Term [SDVL]
+• Liabilities Held for Sale/Discontinued Operations - Long-Term [SDOL]
+• Deferred Tax & Investment Tax Credits - Long-Term [SDTX]
+• Operating Lease Liabilities - Long-Term [SLOL]
+• Other Non-Current Liabilities - Total [SLLT]
+• Minority Interest - Non-Equity [SNMI]
+
+In the absence of the breakdown above it Total Non-Current Liabilities [XNCL]."
+207,TR.F.TotLiab,"Total Liabilities [STLB] refers to all current & non-current liabilities including short term and long term debts. It excludes shareholders equity. Applicable to all Industries.
+Total Liabilities [STLB] includes: 
+Industrial 
+• Debt - Total [SLSD]
+• Income Taxes - Payable - Long-Term & Short-Term [STXB]
+• Dividends Payable [SDPT]
+• Deferred Tax & Investment Tax Credits - Long-Term [SDTX]
+• Payables & Accrued Expenses [SPAB]
+• Derivative Liabilities - Hedging [SDVT]
+• Operating Lease Liabilities - Long-Term & Short-Term [SOLZ]
+• Other Liabilities - Total [SLBO]
+• Liabilities Held for Sale/Discontinued Operations - Long-term & Short-Term [SDCT]
+
+Insurance
+• Insurance Reserves - Total [SRVT]
+• Separate & Variable Account - Liabilities [SSAC]
+• Trading Liabilities [STLL]
+• Debt - Total [SLSD]
+• Dividends Payable [SDPT]
+• Deferred Tax & Investment Tax Credits - Long-Term [SDTX]
+• Payables & Accrued Expenses [SPAB]
+• Derivative Liabilities - Hedging [SDVT]
+• Operating Lease Liabilities - Long-Term & Short-Term [SOLZ]
+• Other Liabilities - Total [SLBO]
+• Liabilities Held for Sale/Discontinued Operations - Long-term & Short-Term [SDCT]
+• Minority Interest - Non-Equity [SNMI]
+
+Property
+• Debt - Total [SLSD]
+• Income Taxes - Payable - Long-Term & Short-Term [STXB]
+• Dividends Payable [SDPT]
+• Intangible Liability [SITA]
+• Deferred Tax & Investment Tax Credits - Long-Term [SDTX]
+• Payables & Accrued Expenses [SPAB]
+• Derivative Liabilities - Hedging [SDVT]
+• Operating Lease Liabilities - Long-Term & Short-Term [SOLZ]
+• Other Liabilities - Total [SLBO]
+• Liabilities Held for Sale/Discontinued Operations - Long-term & Short-Term [SDCT]
+• Minority Interest - Non-Equity [SNMI]
+
+Banks
+• Deposits - Total [STDP]
+• Trading Liabilities [STLL]
+• Debt - Total [SLSD]
+• Income Taxes - Payable - Long-Term & Short-Term [STXB]
+• Dividends Payable [SDPT]
+• Deferred Tax & Investment Tax Credits - Long-Term [SDTX]
+• Payables - Trust Account [SPTA]
+• Payables & Accrued Expenses [SPAB]
+• Derivative Liabilities - Hedging [SDVT]
+• Operating Lease Liabilities - Long-Term & Short-Term [SOLZ]
+• Other Liabilities - Total [SLBO]
+• Liabilities Held for Sale/Discontinued Operations - Long-term & Short-Term [SDCT]
+• Insurance Liabilities [SILU]
+• Minority Interest - Non-Equity [SNMI]
+
+Investment
+• Deposits - Total [STDP]
+• Trading Liabilities [STLL]
+• Debt - Total [SLSD]
+• Income Taxes - Payable - Long-Term & Short-Term [STXB]
+• Dividends Payable [SDPT]
+• Deferred Tax & Investment Tax Credits - Long-Term [SDTX]
+• Payables & Accrued Expenses [SPAB]
+• Derivative Liabilities - Hedging [SDVT]
+• Operating Lease Liabilities - Long-Term & Short-Term [SOLZ]
+• Other Liabilities - Total [SLBO]
+• Liabilities Held for Sale/Discontinued Operations - Long-term & Short-Term [SDCT]
+• Minority Interest - Non-Equity [SNMI]
+
+Financial
+• Deposits - Total [STDP]
+• Trading Liabilities [STLL]
+• Debt - Total [SLSD]
+• Income Taxes - Payable - Long-Term & Short-Term [STXB]
+• Dividends Payable [SDPT]
+• Deferred Tax & Investment Tax Credits - Long-Term [SDTX]
+• Payables & Accrued Expenses [SPAB]
+• Derivative Liabilities - Hedging [SDVT]
+• Operating Lease Liabilities - Long-Term & Short-Term [SOLZ]
+• Other Liabilities - Total [SLBO]
+• Liabilities Held for Sale/Discontinued Operations - Long-term & Short-Term [SDCT]
+• Minority Interest - Non-Equity [SNMI]"
+208,TR.F.ShHoldEqParentShHoldTot,"Shareholders' Equity - Attributable to Parent Shareholders - Total [QTEP] represents the total value of shareholder’s funds. It includes reserves and preferred shareholders. Applicable to all Industries.
+Shareholders' Equity - Attributable to Parent Shareholders - Total [QTEP] includes:
+• Preferred Shareholders Equity [SPSE]
+• Common Equity Attributable to Parent Shareholders [QCEP]
+• Equity - Other [SOEQ]
+
+In the absence of the breakdown above it includes Shareholders' Equity - Total [XTLE]."
+209,TR.F.ComEqParentShHold,"Common Equity Attributable to Parent Shareholders [QCEP] represents sum of all capital surpluses on common stock as well as all share option reserves reported by the company and the par or stated value of the issued common shares of the company adjusted by the value of common stock owned by the issuing company or its consolidated subsidiaries. Applicable to all Industries.
+Common Equity Attributable to Parent Shareholders [QCEP] includes:
+• Common Stock - Treasury/Repurchased [STSC] (deducted)
+• Common Stock - Held in ESOP or Trust/Deferred Compensation [SCST] (deducted)
+• Common Equity - Contributed [SCOM]
+• Equity - Non-Contributed - Reserves & Retained Earnings [SRES]"
+210,TR.F.ComStockTrezRepurch,"Common Stock - Treasury/Repurchased [STSC] represents common stock owned by the issuing company or its consolidated subsidiaries. It is reported with the negative value. Applicable to all Industries.
+Common Stock - Treasury/Repurchased [STSC] includes:
+• Common Stock - Treasury/Repurchased [QTSC]"
+211,TR.F.ComEqContrib,"Common Equity - Contributed [SCOM] represents the sum of all capital surpluses on common stock as well as all share option reserves reported by the company and the par or stated value of the issued common shares of the company. Applicable to all industries.
+Common Equity - Contributed [SCOM] includes:
+• Common Stock - Issued & Paid [SCMS]
+• Common Stock - Additional Paid in Capital including Option Reserve [SPIC]
+• Common Share Capital including Additional Paid in Capital - Total [SCPT]"
+212,TR.F.ComStockIssuedPaid,"Common Stock - Issued & Paid [SCMS] represents the par or stated value of the issued common shares of the company. It includes the capital provided by limited partners.  It includes the value of all multiple shares. Applicable to all industries.  
+Common Stock - Issued & Paid [SCMS] includes:
+• Common Stock - Issued & Paid [QCMS]
+• Share Capital - Common & Preferred - Total [XSHC]
+• Limited Partner [SLPD]
+• Common Share Capital including Additional Paid in Capital - Total [QCAT] (if there is no clear breakout is presented)"
+213,TR.F.ComStockShrPremInclOptionRsrv,"Common Stock - Additional Paid in Capital including Option Reserve [SPIC] represents all capital surpluses on common stock as well as all share option reserves reported by the company. Applicable to all Industries.  
+Common Stock - Additional Paid in Capital including Option Reserve [SPIC] includes:  
+• Share Option Reserve [QSOR]  
+• Common Stock - Additional Paid in Capital [QPIC]"
+214,TR.F.EqNonContribRsrvRetainedEarn,"Equity - Non-Contributed - Reserves & Retained Earnings [SRES] represents combined reported value for retained earnings/reserves and comprehensive income. Applicable to all Industries.
+Equity - Non-Contributed - Reserves & Retained Earnings [SRES] includes:
+• Retained Earnings - Total [SRED]
+• Comprehensive Income - Accumulated - Total [SACI]
+• Other Reserves/Equity - Total [SORE]"
+215,TR.F.RetainedEarnTot,"Retained Earnings - Total [SRED] represents combined reported value for retained earnings/reserves and comprehensive income. Applicable to all Industries. 
+Retained Earnings - Total [SRED] includes:
+• Retained Earnings, Reserves & Comprehensive Income - Total [QREU]
+• Retained Earnings [QRED]
+• Distributions in Excess of Earnings [QDXE]
+• Legal, Statutory & Appropriated Reserves [QLGR]"
+216,TR.F.ComprIncAccumTot,"Comprehensive Income - Accumulated - Total [SACI] represents the sum total of all accumulated comprehensive income, net of tax and a combination of group amounts. Generally US only. Applicable to all Industries.
+Comprehensive Income - Accumulated - Total [SACI] includes:
+• Investments - Unrealized Gain/Loss [SUGC]
+• Hedging Reserves [SHRC]
+• Foreign Currency Translation Adjustment - Accumulated [SCTC]
+• Comprehensive Income - Pension Liabilities [SPLC]
+• Comprehensive Income - Unearned Compensation [SUCC]
+• Revaluation Reserves [SVLR]
+• Comprehensive Income - Other - Total [SOTC]
+
+In the absence of the breakdown above it includes Comprehensive Income - Accumulated - Total [XCOM]."
+217,TR.F.ComEqTot,"Common Equity - Total [SQCM] represents total common equity of the company including general partner's holding and deferred shares and any other shareholder's fund. Applicable to all Industries.
+Common Equity - Total [SQCM] includes:
+• Equity - Other [SOEQ]
+• Common Stock - Treasury/Repurchased [STSC] (deducted)
+• Common Stock - Held in ESOP or Trust/Deferred Compensation [SCST] (deducted)
+• Common Equity - Contributed [SCOM]
+• Equity - Non-Contributed - Reserves & Retained Earnings [SRES]"
+218,TR.F.MinIntrEq,"Minority Interest - Equity [SMNE] represents a combination of non-controlling/minority interests reported within liabilities and in the shareholders’ equity.  Minority/non-controlling interest is an accumulated interest for minority shareholders in subsidiaries that are less than 100 percent owned by the reporting parent company. Applicable to all Industries.  
+Minority Interest - Equity [SMNE] includes:  
+• Minority Interests/Non-Controlling Interests - Total [LMIN]
+• Equity Minority Interests/Equity Non-Controlling Interests [QMIN]"
+219,TR.F.TotShHoldEq,"Total Shareholders' Equity - including Minority Interest & Hybrid Debt [STLE] represents total equity after minority interest. It includes debt which has the characteristic of both debt and equity reported in the equity section, non-controlling Interest included within equity and Total Shareholders' Equity Attributable to Parent Shareholders. Applicable to all Industries.
+Total Shareholders' Equity - including Minority Interest & Hybrid Debt [STLE] includes:  
+• Shareholders' Equity - Attributable to Parent Shareholders - Total [QTEP]
+• Minority Interest - Equity [SMNE]
+• Hybrid Financial Instrument - Equity Portion [SHDE]
+
+In the absence of the breakdown above, it includes Total Equity [XEQT]."
+220,TR.F.TotLiabEq,"Total Liabilities & Equity [STBL] represents the sum of all liabilities and shareholder’s equity. Applicable to all Industries.
+Total Liabilities & Equity [STBL] includes:
+• Total Liabilities [STLB]
+• Total Shareholders' Equity - including Minority Interest & Hybrid Debt [STLE]
+
+In the absence of the breakdown above, it includes Total liabilities and equity [XTEL]"
+221,TR.F.ComShrIssuedTot,"Common Shares - Issued - Total [STCIC] represents the number of common shares issued (company level, includes both shares outstanding and treasury shares). Applicable to all industries. 
+Common Shares - Issued - Total [STCIC] includes:
+• Common Shares - Outstanding - Total [STCOC]
+• Common Shares - Treasury - Total [STCTC]
+
+In the absence of the breakdown above it includes Common Shares - Issued - Total [XTCIC] In the absence of above, it includes:
+• Common Shares - Issued - Issue Specific - CPO [XTCIICPO]• Common Shares - Issued - Issue Specific [XTCII]"
+222,TR.F.ComShrOutsTot,"Common Shares - Outstanding - Total [STCOC] represents the number of common shares outstanding (company level, excludes treasury shares). Applicable to all industries. 
+Common Shares - Outstanding - Total [STCOC] includes:
+• Common Shares - Outstanding - Total [XTCOC]
+
+In the absence of above, it includes:
+• Common Shares - Outstanding - Issue Specific - CPO [XTCOICPO]
+• Common Shares - Outstanding - Issue Specific [XTCOI]"
+223,TR.F.ComShrTrezTot,"Common Shares - Treasury - Total [STCTC] represents the number of common treasury shares (company level). Applicable to all industries.
+Common Shares - Treasury - Total [STCTC] includes:
+• Common Shares - Treasury - Total [XTCTC]
+
+In the absence of above, it includes:
+• Common Shares - Treasury - Issue Specific - CPO [XTCTIICPO]
+• Common Shares - Treasury - Issue Specific [XTCTI]"
+224,TR.F.ComShrIssuedIssue,"Common Shares - Issued - Issue Specific [STCII] represents the number of common shares issued (per specific share issue, company level - includes both shares outstanding and treasury shares). Applicable to all Industries.
+Common Shares - Issued - Issue Specific [STCII] includes:
+• Common Shares - Issued - Issue Specific [XTCII]"
+225,TR.F.ComShrOutsIssue,"Common Shares - Outstanding - Issue Specific [STCOI] represents the number of common shares outstanding (per specific share issue, instrument level - excludes treasury shares). Applicable to all Industries.
+Common Shares - Outstanding - Issue Specific [STCOI] includes:
+• Common Shares - Outstanding - Issue Specific [XTCOI]"
+226,TR.F.ComShrTrezIssue,"Common Shares - Treasury - Issue Specific [STCTI] represents the number of common treasury shares (per specific share issue, instrument level). Applicable to all Industries.
+Common Shares - Treasury - Issue Specific [STCTI] includes:
+• Common Shares - Treasury - Issue Specific [XTCTI]"
+227,TR.F.ComShrIssuedIssueDR,"Common Shares - Issued - Issue Specific - DR [STCIIDR] represents the number of common shares issued based on the depository receipt (DR) ratio of the underlying instrument. Applicable to all Industries.
+Common Shares - Issued - Issue Specific - DR [STCIIDR] includes:
+• Common Shares - Issued - Issue Specific - DR [XTCIIDR]"
+228,TR.F.ComShrOutsIssueDR,"Common Shares - Outstanding - Issue Specific - DR [STCOIDR] represents the number of common shares outstanding in a company (per specific share issue, instrument level) based on the depository receipt (DR) ratio of the underlying instrument. Applicable to all Industries.
+Common Shares - Outstanding - Issue Specific - DR [STCOIDR] includes:
+• Common Shares - Outstanding - Issue Specific - DR [XTCOIDR]"
+229,TR.F.ComShrTrezIssueDR,"Common Shares - Treasury - Issue Specific - DR [STCTIDR] represents the number of common treasury shares (per specific share issue, instrument level) based on the depositary receipt (DR) ratio of the underlying instrument at Balance Sheet Date. Applicable to all Industries.
+Common Shares - Treasury - Issue Specific - DR [STCTIDR] includes:
+• Common Shares - Treasury - Issue Specific - DR [XTCTIIDR]"
+230,TR.F.AssetAllocFactorIssue,"Asset Allocation Factor - Issue Specific [SAAFI] represents the proportion of each issue to the net assets (equity) of the company. For multiple issue companies, it is generally calculated as the common shares outstanding of an issue divided by the combined common shares outstanding of all the issues. Applicable to all industries. 
+Asset Allocation Factor - Issue Specific [SAAFI] includes:
+• Asset Allocation Factor - Issue Specific [AAFI]"
+231,TR.F.AssetAllocFactorIssue,"Asset Allocation Factor - Issue Specific [SAAFI] represents the proportion of each issue to the net assets (equity) of the company. For multiple issue companies, it is generally calculated as the common shares outstanding of an issue divided by the combined common shares outstanding of all the issues. Applicable to all industries. 
+Asset Allocation Factor - Issue Specific [SAAFI] includes:
+• Asset Allocation Factor - Issue Specific [AAFI]"
+232,TR.F.DebtInclFinOpLeaseLiabSuppl,"Debt including Finance and Operating Lease Liabilities - Supplemental [STDL] represents sum of Debt and operating leases arising on adoption of IFRS 16. Applicable to Industrial companies.
+Debt including Finance and Operating Lease Liabilities - Supplemental [STDL] includes:
+• Debt - Total [SLSD]
+• Total Operating Lease Liabilities [STLT]"
+233,TR.F.InvstTot,"Investments - Total [STIV] represents total of trading, term, property & other investments and Loans, applied under non-differentiated method. Applicable to Industrial, Bank, Property, Investment & other financial.
+Investments - Total [STIV] includes:
+• Investment Property [SVPT]
+• Investment Securities - Available for Sale, Held to Maturity & Held for Trading - Total [STIS]
+• Investments - Other - Total [STIO]
+• Commodities [SCMD] (For investments)
+• Investments - Other - Total [STIO] (For investments)
+• FHLB Stock - Asset [SFHA] (For Banks)
+• Investments - Private Equity & Other - Total [SPES] (For Other Financials)"
+234,TR.F.LoansRcvblTot,"Loans & Receivables - Total [SLRE] represents sum of Trade, accounts & loans receivable after deducting provision for doubtful accounts. Applicable to Industrial, Bank, Property, Investment Trust & Other Financial. 
+Loans & Receivables - Total [SLRE] includes:
+For Industrial & Property:
+• Trade Accounts & Trade Notes Receivable - Total [SANT]
+• Income Tax - Receivables [SITX]
+• Receivables - Other [SORT]
+• Finance Lease Receivables - Net - Long-Term & Short-Term [SFLN] (for Property)
+• Less Provision - Doubtful Accounts - Total [STPT]
+
+For Investment Trust, Banks & Other Financial: 
+• Banking Related Loans - Net [SNBL]
+• Trade Accounts & Trade Notes Receivable - Total [SANT]
+• Income Tax - Receivables [SITX]
+• Receivables - Other [SORT]
+• Finance Lease Receivables - Net - Long-Term & Short-Term [SFLN] (for Investment & Other Financial)
+• Banking Related Loans - Net [SNBL]
+• Interest Receivables - Bank [SIRC] (For Banks)
+• Trade Accounts & Trade Notes Receivable - Total [SANT] (for Other financial)
+• Less Provision - Doubtful Accounts - Total [STPT]"
+235,TR.F.AssetsHeldForSaleDiscOpsLTST,"Assets Held for Sale/Discontinued Operations - Long-Term & Short-Term [SDAS] represents both current and non-current assets of discontinued operations to be disposed of through sale and other assets classified as held for sale. Applicable to all Industries.
+Assets Held for Sale/Discontinued Operations - Short-Term [SDAS] includes:
+• Assets Held for Sale/Discontinued Operations - Long-Term [ADOA]
+• Assets Held for Sale/Discontinued Operations - Short-Term [ADCA]"
+236,TR.F.OthAssetsTot,"Other Assets - Total [SOAT] represents the total other assets of the company. Applicable to all Industries.
+Other Assets - Total [SOAT] includes:
+• Restricted Accounts - Cash [STRC]
+• Pension Benefits - Overfunded - Total [SPBT]
+• Deferred Charges [STDF]
+• Deferred Tax - Asset - Long-Term & Short-Term [SDTT]
+• Prepaid Expenses - Total [SPPT]
+• Other Assets [SOAO]
+• Other Non-Current Assets - Total [XOLT]
+• Other Current Assets - Total [XOCA]
+
+Industrial companies additionally includes:
+• Decommissioning Funds [SDFN]
+• Regulatory Assets - Total [ARAT]
+
+Insurance companies additionally includes:
+• Accrued Investment Income [SAII]
+
+Differentiated - Industrial and Property companies additionally includes:
+• Other Current Assets - Total [SOCA]
+• Other Non-Current Assets - Total [SOAS]"
+237,TR.F.IncTaxPbleLTST,"Income Taxes - Payable - Long-Term & Short-Term [STXB] represents to income taxes payable to the government calculated on the basis of the company’s profits.  Applicable to all Industries.
+Income Taxes - Payable - Long-Term & Short-Term [STXB] includes: 
+• Income Taxes - Payable - Short-Term [LTXP]"
+238,TR.F.PbleAccrExpn,"Payables & Accrued Expenses [SPAB] represents the combined items of payables and accrued expenses. Applicable to all Industries.
+Payables & Accrued Expenses [SPAB] includes:
+Non-differentiated
+Industrial and Property
+• Trade Account Payables - Total [SANP]
+• Accrued Expenses [SAEA]
+
+Insurance
+• Trade Account Payables - Total [SANP]
+• Payable – Reinsurance & Brokers/Agents [SPRB]
+• Other Payables - Total [SPAO]
+• Accrued Expenses [SAEA]
+
+Banks
+• Accounts payable and Accrued expense [LPBA]
+• Interest Payable [SNPB]
+• Other Payables - Total [SPAO]
+• Accrued Expenses [SAEA]
+
+Investment and Financial
+• Trade Account Payables - Total [SANP]
+• Interest Payable [SNPB]
+• Other Payables - Total [SPAO]
+• Accrued Expenses [SAEA]
+
+Differentiated
+Industrial and Property
+• Trade Accounts Payable & Accruals - Short-Term [SAPA]
+• Accounts Payable including Accrued Expenses - Long-Term [SLAP]"
+239,TR.F.TradeAcctPbleTot,"Trade Account Payables - Total [SANP] represents the total value of amounts payable/owed to creditors or suppliers for materials and merchandise acquired or for services provided within the normal operations of the business. This item includes both long term and short term trade payables as well as combined items of payables and accrued expenses. Applicable to Industrial, Insurance, Property, Investment Trust and Other Financial companies.
+Trade Account Payables - Total [SANP]  includes:
+• Accounts Payable [LAPB]
+
+Property, Investment Trust and Other Financial companies additionally includes:
+• Accounts Payable and Accrued Expenses [LPBA]
+
+Industrial companies additionally includes:
+• Accounts Payable and Accrued Expenses [LPBA]
+• Trade Payables - Long-Term [LLTP]"
+240,TR.F.LiabHeldForSaleDiscOpsLTST,"Liabilities Held for Sale/Discontinued Operations - Long-term & Short-Term [SDCT] represents the liabilities which are classified as held for sale from discontinued operations and other non-current and current liabilities classified as held for sale. This item is applicable for non-differentiated balance sheet. Applicable to all Industries.
+Liabilities Held for Sale/Discontinued Operations - Long-term & Short-Term [SDCT] includes: 
+• Liabilities Held for Sale/Discontinued Operations - Long-Term [LDOL]
+
+Industrial, Property, Financial and Investment companies additionally includes:
+• Liabilities Held for Sale/Discontinued Operations - Short-Term [LDCL]"
+241,TR.F.NetDebt,Net Debt [SSND] represents the total non-current debt or interest bearing financial obligations (Debt - Long-Term - Total [SLTD]) subtracted by value of cash and short term investments held by the company (Cash & Short Term Investments [SCSI]). Applicable to all Industries.
+242,TR.F.DebtTot,"Debt - Total [SLSD] represents the total value of all borrowings reported by the company. It includes both short term and long term debt. Applicable to all Industries.
+Debt - Total [SLSD] includes:  
+• Short-Term Debt & Current Portion of Long-Term Debt [SSTD]
+• Debt - Long-Term - Total [SLTD]"
+243,TR.F.MinIntrTot,"Minority Interest - Total [STMI] represents the total value of minority interest reported by the company. It includes non-controlling interests reported within liabilities and in the shareholders’ equity. Applicable to all Industries.  
+Minority Interest - Total [STMI] includes:
+• Minority Interest - Non-Equity [SNMI]
+• Minority Interest - Equity [SMNE]
+
+In the absence of the breakdown above, it includes:
+• Minority Interests/Non-Controlling Interests - Total [LMIN]
+• Equity Minority Interests/Equity Non-Controlling Interests [QMIN]
+• Minority Interest - Non-Equity [LNMI]
+• Minority Interest [XMIN]"
+244,TR.F.AccrualsST,"Accruals - Short-Term [SACRU] represents sum of total current asset after deducting cash & cash equivalents and total current liabilities.  Applicable to Industrial & Property.
+Accruals - Short-Term [SACRU] Includes:
+•Total Current Assets[STCA]
+•Less: Cash & Cash Equivalents - Total[SCASH]
+•Less: Total Current Liabilities[SCLT]"
+245,TR.F.AssetAccruals,"Asset Accruals [SASAC] represents the sum of all current assets and Total Fixed assets less the value of short-term, highly liquid investments that are both readily convertible to known amounts of cash and so close to their maturity that they present insignificant risk of changes in interest rates. Applicable to all Industries. 
+Asset Accruals [SASAC] includes:
+• Total Current Assets [STCA] 
+• Total Fixed Assets – Net [STNCA]
+• Cash & Cash Equivalents [SCAE] (deducted)"
+246,TR.F.CashCashEquivTot,"Cash & Cash Equivalents - Total [SCASH] short-term, highly liquid investments that are both readily convertible to known amounts of cash and so close to their maturity that they present insignificant risk of changes in interest rates. Only investments with original maturities of three months or less qualify under these definitions. Applicable to all industries.
+Cash & Cash Equivalents - Total [SCASH] includes:
+For Banks 
+• Cash & Short-Term Deposits Due from Banks - Total [SCDK] 
+For Industrial, Insurance, Investment Trust, Other Financial and Property 
+• Cash & Cash Equivalents [SCAE]"
+247,TR.F.CashSTInvstTot,"Cash & Short Term Investments - Total [SCSTI] represents the total value of cash on hand and short term deposits due from other banks. Due from banks represents receivables from, or short-term loans to, other banks and/or financial institutions, which usually bear minor interest earnings. The item is applicable to all Industries.
+Cash & Short Term Investments - Total [SCSTI] is the sum of:
+• Cash & Short Term Investments [SCSI] (Applicable to Industrial, Property, Insurance, Investment and Financial Companies)
+• Cash & Short-Term Deposits Due from Banks - Total [SCDK] (Applicable to Banks)"
+248,TR.F.DebtInclPrefEqMinIntrTot,"Debt - including Preferred Equity & Minority Interest - Total[STDBT] represents sum of Debt, Minority interest & Preferred stock. Applicable to all industries.
+Debt - including Preferred Equity & Minority Interest - Total [STDBT] includes:
+• Debt - Total [SLSD]
+• Minority Interest - Total [STMI]
+• Preferred Shareholders Equity [SPSE]"
+249,TR.F.InvstPermanent,"Investments - Permanent [SINVP] represents the total value of long-term investments held for sale or to maturity including investment property and other non-current financial assets including Investment in associated, affiliated and other companies accounted for by the equity method. Applicable to all Industries.
+Investments - Permanent [SINVP] includes:
+•  Investments in Associates, Joint Ventures and Unconsolidated Subsidiaries [SEQT] 
+•  Investments - Long-Term [SILT]"
+250,TR.F.NetBookCap,"Net Book Capital [SNBKC] represents the sum of total shareholders equity and net debt. Applicable to all industries.
+Net Book Capital [SNBKC] includes:
+• Total Shareholders' Equity - including Minority Interest & Hybrid Debt [STLE]
+• Net Debt [SSND]"
+251,TR.F.NetOpAssets,"Net Operating Assets [SNOPA] represnets assets  sum of assets directly related to business operations, minus all liabilities  directly related to its operations. Applicable to all industries.
+Net Operating Assets [SNOPA] includes:
+• Total Shareholders' Equity - including Minority Interest & Hybrid Debt [STLE]
+• Debt - Total [SLSD]
+• Minority Interest [SMNI]
+• Less: Cash & Short Term Investments [SCSI]"
+252,TR.F.ProvTot,"Provisions - Total [SPROV] represents a provision is an account which records a present liability of an entity balance sheet. Applicable to all industries.
+Provisions - Total [SPROV includes:
+• Provisions - Long-Term [SNCP]
+• Provisions - Short-Term [SCPV]
+• Deferred Tax - Liability - Short-Term [SDTC]
+• Deferred Tax & Investment Tax Credits - Long-Term [SDTX]"
+253,TR.F.ShHoldEqCom,"Shareholders Equity - Common [STCSE] represents the sum of all capital surpluses on common stock as well as all share option reserves reported by the company. This is calculated by deducting Minority Interest - Equity [SMNE], Hybrid Financial Instrument - Equity Portion [SHDE] and Preferred Shareholders Equity [SPSE] from Shareholders' Equity - Attributable to Parent Shareholders - Total [QTEP]. Applicable to all Industries."
+254,TR.F.CashSTInvstNetOfDebt,"Cash & Short Term Investments - Net of Debt [SCSID] represents the value of Cash & Short Term Investments - Total, less the value of Debt - Total. Applicable to all Industries.
+Cash & Short Term Investments - Net of Debt [SCSID] includes:
+• Cash & Short Term Investments - Total [SCSTI]
+• Debt - Total [SLSD] (deducted)"
+255,TR.F.TangTotEq,Tangible Total Equity [STTAN] represents the difference between the value of total equity after minority interest (Total Shareholders' Equity - including Minority Interest & Hybrid Debt [STLE]) and the value of net total intangible assets including goodwill (Intangible Assets - Total - Net [SINN]).
+256,TR.F.TangBV,"Tangible Book Value [SQTAN] represents a difference between total equity after minority interest and the sum of preferred shareholders equity and the value of net total intangible assets including goodwill. Applicable to all Industries.
+Tangible Book Value [SQTAN] includes:
+• Shareholders Equity - Common [STCSE]
+• Intangible Assets - Total - Net [SINN] (deducted)"
+257,TR.F.TotBookCap,"Total Book Capital [STBKC] represents a sum of total equity after minority interest and the total value of all borrowings reported by the company less the value of preferred shareholders equity. Applicable to all Industries.
+Total Book Capital [STBKC] includes:
+• Shareholders Equity - Common [STCSE]
+• Debt - Total [SLSD]"
+258,TR.F.TotCap,"Total Capital [STCAP] represents the sum of total equity after minority interest, the value of non-controlling interests reported within liabilities and the total value of all borrowings reported by the company. Applicable to all Industries
+Total Capital [STCAP] is sum of:
+• Total Shareholders' Equity - including Minority Interest & Hybrid Debt [STLE]
+• Debt - Total [SLSD]
+• Minority Interest - Non-Equity [SNMI]"
+259,TR.F.TotLTCap,"Total Long Term Capital [STLTC] represents sum of total shareholders equity & non-current liabilities, minus minority interest. Applicable to all industries.
+Total Long Term Capital [STLTC] includes:
+• Total Shareholders' Equity - including Minority Interest & Hybrid Debt [STLE]
+• Total Non-Current Liabilities [SLDL]
+• Less: Minority Interest - Non-Equity [SNMI]"
+260,TR.F.TotFixedAssetsNet,"Total Fixed Assets - Net [STNCA] is calculated as the difference between the value of total assets reported by the company  and the value of all current assets. Applicable to Industrial and Property with differentiated balance sheet.
+Total Fixed Assets - Net [STNCA] includes:
+• Property, Plant & Equipment - Net - Total [SPPE]
+• Investments - Long-Term [SILT]
+• Investments in Associates, Joint Ventures and Unconsolidated Subsidiaries [SEQT]
+• Other Non-Current Assets - Total [SOAS]
+• Assets Held for Sale/Discontinued Operations - Long-Term [SDOA]
+• Derivative Financial Instruments - Hedging - Long-Term [SNDH]
+• Intangible Assets - Total - Net [SINN]
+• Goodwill/Cost in Excess of Assets Purchased - Net [SGWN] (deducted)"
+261,TR.F.WkgCap,Working Capital [SWCAP] represents a difference between the total value of current assets (Total Current Assets [STCA]) and the total value of current liabilities (Current Liabilities - Total [SCLT]).
+262,TR.F.IntrBearLiabTot,"Interest Bearing Liabilities - Total [SINBL] represents the sum of the total value of all borrowings reported by the company. Applicable to all Industries.
+Interest Bearing Liabilities - Total [SINBL] includes:
+• Debt - Total [SLSD]
+
+Bank, Investment and Financial companies additionally includes:
+• Deposits - Total [STDP]"
+263,TR.F.WkgCapNonCash,"Working Capital - Non-Cash [SNCWC] represents all current assets net of cash and subtracting all current liabilities. Applicable to Industrial & Property companies.
+Working Capital - Non-Cash [SNCWC]  includes:
+• Total Current Assets [STCA]
+• Less: Total Current Liabilities [SCLT]
+• Less: Cash & Short Term Investments [SCSI]"
+264,TR.F.WkgCapExclOthCurrAssetsLiab,"Working Capital excluding Other Current Assets & Liabilities [SWCXOAL] represents a sum of Working Capital, less the value of Other Current Assets - Total and Other Current Liabilities - Total. Applicable to Industrial and Property companies.
+Working Capital excluding Other Current Assets & Liabilities [SWCXOAL] includes:
+• Working Capital [SWCAP]
+• Other Current Assets - Total [SOCA] (deducted)
+• Other Current Liabilities - Total [SOCL]"
+265,TR.F.BVExclOthEq,Book Value excluding Other Equity [STCSEO] represents difference between Shareholders Equity - Common [STCSE] and Other Reserves/Equity - Total [SORE]. Applicable to all Industries.
+266,TR.F.NetDebtInclPrefEqMinIntr,"Net Debt Including Preferred Equity & Minority Interest [STDBND] represents the result of Total Debt Including Redeemable Preferred & Non-Equity Minority Interest, less the value of Cash & Short Term Investments—Total. Applicable to all Industries.
+Net Debt Including Preferred Equity & Minority Interest [STDBND] includes:
+• Debt - including Preferred Equity & Minority Interest - Total [STDBT]
+• Cash & Short Term Investments - Total [SCSTI] (deducted)"
+267,TR.F.OthSTLTAssetsTot,"Other Short-Term & Long-Term Assets - Total [SOAST] represents the sum of:
+Differentiated
+• Income Taxes - Foreign - Deferred [SDIF]
+• Non-current Other Assets -Total [SOAS]
+• Other Current Assets - Total [SOCA] (deducted)
+• Restricted Accounts - Long-Term [SRCL] (deducted)
+• Restricted Accounts-Current [ARCA] (deducted)
+Non-differentiated
+• Other Assets - Total [SOAT]
+• Restricted Accounts - Cash [STRC] (deducted)
+Applicable to all Industries."
+268,TR.F.OthSTLTLiabTot,"Other Short-Term & Long-Term Liabilities - Total [SOLBT] represents other liabilities, other non-current liabilities, other current liabilities. Applicable to all Industries.
+Other Short-Term & Long-Term Liabilities - Total [SOLBT] includes:
+All Industries (Non-differentiated)
+• Other Liabilities [SOOL]
+
+Industrial and Property (Differentiated)
+• Other Current Liabilities - Total [SOCL]
+• Other Non-Current Liabilities [SOLL]"
+269,TR.F.TotCurrAssetsExclTotInvnt,"Total Current Assets excluding Total Inventories [STCAXIN] represents the value of the value of all current assets (Total Current Assets [STCA]) less the value of total of all stocks and inventories excluding any classified as fixed assets (Inventories - Total [SINY]). Applicable to Industrial, Property, Investment and Financial companies."
+270,TR.F.TangBVExclOthEq,Tangible Book Value excluding Other Equity [SQTANO] represents Book Value of a company excluding other equity [STCSEO] as well as Intangible assets - Total Net [SINN]. Applicable to all Industries. (Used for analytics)
+271,TR.F.TotDebtExclIslamic,Total Debt Excluding Islamic [STDID] represents the value of the total value of all borrowings reported by the company (Debt - Total [SLSD]) less the value of all liabilities arising from Islamic debt financing agreements (Islamic Debt - Long-Term & Short-Term [SISD]). Applicable to all Industries.
+272,TR.F.TradeAcctTradeNotesRcvblNetTot,"Trade Accounts & Trade Notes Receivable - Net - Total [SAACR] represents the total value of claims held against customers for goods sold or services rendered. Applicable to Industrial and Property companies.
+Trade Accounts & Trade Notes Receivable - Net - Total [SAACR] includes:
+• Accounts & Notes Receivable - Trade - Net [AACR]
+
+Industrial companies additionally includes:
+• Unbilled Utility Revenue - Short-Term [AUUR]"
+273,TR.F.CurrLiabExclCurrDebtTot,"Current Liabilities excluding Current Debt - Total [SCLCD] represents the difference between sum of a company's short term/current liabilities (due within one year) (Total Current Liabilities [SCLT]) and all borrowings due within one year (Short-Term Debt & Current Portion of Long-Term Debt [SSTD]). Applicable to Industrial, Property, Investment and Financial companies. (Used for analytics)"
+274,TR.F.CurrAssetsExclCashSTInvstTot,"Current Assets excluding Cash & Short Term Investments - Total [SCACS] represents the value of all current assets (Total Current Assets [STCA]) less total value of cash on hand and short term deposits due from other banks (Cash & Short Term Investments - Total [SCSTI]. Applicable to Industrial, Property, Investment and Financial companies. (Used for analytics)"
+275,TR.F.CashSTInvstAcctRcvblTot,"Cash, Short Term Investments & Accounts Receivable - Total [SCSAR] represents the sum of the total value of cash on hand and short term deposits due from other banks. Applicable to Industrial and Property companies.
+Cash, Short Term Investments & Accounts Receivable - Total [SCSAR] includes:
+• Cash & Short Term Investments - Total [SCSTI]
+• Trade Accounts & Trade Notes Receivable - Net – Total [SAACR] (Used for analytics)"
